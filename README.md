@@ -34,6 +34,7 @@
 | `data/probes/probe-DATE.jsonl` | which ATS each company is on, with how the board was confirmed |
 | `data/companies/boards.csv`, `ats-coverage.md` | confirmed boards and the coverage report |
 | `data/jobs/DATE/` | `summary.json`, `boards.json`, `seis-fit.md`, `entry-level.csv` (tracked); `jobs.jsonl` and `current.jsonl` (all postings, gitignored) |
+| `research/` | possible papers, one folder each with a `paper-draft.md`; see `research/README.md` |
 | `aijobs/` | the code: Python standard library only, no keys |
 
 ## Run it
