@@ -142,6 +142,14 @@ def main():
             if r["last_seen"] == a.date or r["status"] == "gone":
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
     opened = [r for r in rows if r["status"] == "open"]
+    by_id = {r["id"]: r for r in rows}
+    new_recs = [by_id[i] for i in new_ids]
+    new_fam, new_sen = {}, {}
+    for r in new_recs:
+        k = r["inferred"]["title_family"] or "(no SEIS title family)"
+        new_fam[k] = new_fam.get(k, 0) + 1
+        k = r["inferred"]["seniority"] or "(not stated in title)"
+        new_sen[k] = new_sen.get(k, 0) + 1
     fam = {}
     for r in opened:
         k = r["inferred"]["title_family"] or "(no SEIS title family)"
@@ -154,6 +162,9 @@ def main():
         "date": a.date, "collector": __version__, "boards_requested": len(boards),
         "boards_read_ok": sum(1 for s in status_rows if s["read_ok"]), "boards_failed": [s for s in status_rows if not s["read_ok"]],
         "postings_open": len(opened), "new_this_run": len(new_ids), "gone_this_run": len(gone),
+        "first_run": not prev,  # no earlier state on this machine: every posting is "new", so no daily figure exists
+        "new_by_title_family": dict(sorted(new_fam.items(), key=lambda x: -x[1])),
+        "new_by_seniority": dict(sorted(new_sen.items(), key=lambda x: -x[1])),
         "by_title_family": dict(sorted(fam.items(), key=lambda x: -x[1])),
         "by_seniority": dict(sorted(sen.items(), key=lambda x: -x[1])),
         "by_provider": {p: sum(1 for r in opened if r["provider"] == p) for p in P.PROVIDERS},

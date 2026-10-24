@@ -2,7 +2,7 @@
 import json
 import unittest
 
-from aijobs import collect, infer, providers as P
+from aijobs import collect, infer, notify, providers as P
 from aijobs.build_titles import parse, entry_variants
 from aijobs.paths import SCHEMA
 
@@ -133,6 +133,65 @@ class Delta(unittest.TestCase):
         rows, new, gone, _ = collect.merge_state(prev, [(board, True, again, "u")], "2026-10-24")
         self.assertEqual(rows[0]["first_seen"], "2026-09-01")
         self.assertEqual(new, [])
+
+
+SUMMARY = {"date": "2026-10-25", "boards_requested": 715, "boards_read_ok": 713, "boards_failed": [{"company": "X"}, {"company": "Y"}],
+           "postings_open": 84600, "new_this_run": 412, "gone_this_run": 94, "first_run": False,
+           "new_by_title_family": {"software-engineering": 70, "(no SEIS title family)": 240, "cloud-devops-sre": 31, "leadership": 9,
+                                   "ai-engineering": 22, "analytics": 15, "security": 12, "ml-engineering": 8, "data-science": 5,
+                                   "design-ux": 4, "research": 3, "robotics-cps": 2},
+           "new_by_seniority": {"senior": 120, "entry": 14, "intern": 9}}
+
+
+class Discord(unittest.TestCase):
+    def test_daily_message_has_counts_and_no_postings(self):
+        e = notify.build_ok(SUMMARY, {"software-engineering": "General software engineering"})
+        text = e["title"] + e["description"] + e["footer"]
+        self.assertIn("412 new", text)
+        self.assertIn("General software engineering: 70", e["description"])
+        self.assertIn("23 of the new postings", e["description"])         # 14 entry + 9 intern
+        self.assertIn("of 412", e["description"])
+        self.assertNotIn("leadership", e["description"])                    # not a SEIS-fit family
+        self.assertIn("2 board(s) could not be read", e["description"])
+        self.assertIn("more families", e["description"])                    # 10 families, top 8 shown
+        notify.check_safe(text)
+
+    def test_first_run_has_no_daily_figure(self):
+        e = notify.build_ok({**SUMMARY, "first_run": True})
+        self.assertIn("no daily figure", e["description"])
+        self.assertNotIn("412 new", e["title"] + e["description"])
+
+    def test_notices(self):
+        self.assertIn("stopped itself", notify.build_notice("2026-10-25", "halted")["description"])
+        self.assertIn("(step: collect)", notify.build_notice("2026-10-25", "failed", "collect")["description"])
+        self.assertIn("test", notify.build_notice("2026-10-25", "test")["title"])
+
+    def test_unsafe_text_is_refused(self):
+        for bad in ("see /Users/bear/x", "mail bear@bearbrown.co", "https://discord.com/api/webhooks/1/abc", "at /home/jobs/STOP"):
+            with self.assertRaises(notify.Unsafe):
+                notify.to_payload({"title": "t", "description": bad, "footer": "f"})
+
+    def test_payload_never_pings(self):
+        p = notify.to_payload(notify.build_notice("2026-10-25", "failed"))
+        self.assertEqual(p["allowed_mentions"], {"parse": []})
+
+    def test_no_webhook_file_is_a_noop_and_loose_permissions_are_refused(self):
+        import os, tempfile
+        with tempfile.TemporaryDirectory() as d:
+            f = os.path.join(d, "hook")
+            os.environ["AIJOBS_DISCORD_WEBHOOK_FILE"] = f
+            self.assertIsNone(notify.read_webhook()[0])                         # missing file
+            with open(f, "w") as fh:
+                fh.write("https://discord.com/api/webhooks/1/abc\n")
+            os.chmod(f, 0o644)
+            url, why = notify.read_webhook()
+            self.assertIsNone(url); self.assertIn("readable by group", why)
+            os.chmod(f, 0o600)
+            self.assertEqual(notify.read_webhook()[0], "https://discord.com/api/webhooks/1/abc")
+            with open(f, "w") as fh:
+                fh.write("https://example.com/not-discord\n")
+            self.assertIsNone(notify.read_webhook()[0])
+            del os.environ["AIJOBS_DISCORD_WEBHOOK_FILE"]
 
 
 if __name__ == "__main__":
