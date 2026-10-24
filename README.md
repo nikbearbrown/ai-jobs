@@ -13,7 +13,7 @@
 * A company's mention in the 112 SEIS student stories is a pointer, not a hire count: Amazon (21), LinkedIn (20), Google (9), Microsoft (8), Nokia (7), OpenAI (6), Snowflake (6), MongoDB (6) ([seis-story-mentions.json](data/companies/seis-story-mentions.json)).
 
 **What is NOT done or NOT true yet.**
-* **Nothing runs on the Hetzner box.** The box was only looked at read-only (2 cores, 3.8 GB RAM, 25 GB disk free, load 0.08, auditor active). The plan is in [docs/collector-plan.md](docs/collector-plan.md); it needs a yes.
+* **It now runs on the Hetzner box, but has done so for one test run only.** Deployed 2026-10-24 under an unprivileged `jobs` user with a daily timer (04:30 UTC) and a weekly probe (Wednesdays 03:00 UTC). The first run read all 715 boards in 1 min 56 s, 19 s of CPU, 642 MB peak, and got the same 84,282 postings as my Mac run. The first *scheduled* run (2026-10-25) and the first real push of summaries from the box have not happened yet; the push permission was tested with a throwaway branch. Details and how to stop it: [docs/collector-plan.md](docs/collector-plan.md).
 * **Workable was not read.** My first probe hit it too hard and it answered HTTP 429 with a `Retry-After` of about 23 hours. The code now honours that and throttles; Workable-hosted companies (Hugging Face and the like) are missing from the counts until it is re-run after the block lifts. Not worked around.
 * **The big regulated employers are mostly absent** (banks, hospitals, consultancies, government): they sit on systems with no adapter yet. Workday is the first one to build. LinkedIn, Indeed and Glassdoor are deliberately not used (their terms forbid scraping).
 * **The company list is from memory.** Some names may be defunct, acquired or renamed (not checked); they would show as "no board". Existence of a name is not evidence of hiring.
@@ -26,7 +26,8 @@
 |---|---|
 | `schema/job.schema.json` | the canonical posting; unstated fields are `null`, our conclusions are under `inferred` with the rule that made them |
 | `docs/canonical-form.md` | how each ATS maps to it (field table) and what is not covered |
-| `docs/collector-plan.md` | how it would run on the Hetzner box (design only) |
+| `docs/collector-plan.md` | how it runs on the Hetzner box, and how to stop or undo it |
+| `ops/` | `run-daily.sh`, `run-weekly-probe.sh` and the four systemd units installed on the box |
 | `data/courses.json` | the 22 SEIS AI courses, copied from seisai.site/courses |
 | `data/titles/titles.src.txt` -> `titles.json` | the title list; edit the `.src.txt` |
 | `data/companies/src/*.txt` -> `companies.csv` | the company list by segment; `Name=slug1,slug2` adds slug guesses |
@@ -59,6 +60,5 @@ python3 -m aijobs.story_mentions /path/to/books/seis
 ## Decisions waiting for Professor Bear
 
 1. Visibility: created **private**. Make it public, or keep private until seis.jobs is ready?
-2. The Hetzner box: install the collector under a new unprivileged `jobs` user with a daily timer?
-3. What leaves the box: counts and summaries only, or the postings themselves (public ads, but a bulk copy)?
-4. Which adapter next: Workday (most banks, hospitals, consultancies), or USAJOBS (federal, has a documented free API)?
+2. Which adapter next: Workday (most banks, hospitals, consultancies), or USAJOBS (federal, has a documented free API)?
+3. How the postings reach seis.jobs, since only counts and summaries leave the box today.
