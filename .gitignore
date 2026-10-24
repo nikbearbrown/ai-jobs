@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+# The full posting state and every dated jobs.jsonl are working data (copies of companies' ads, grows daily).
+# The collector's summary.json and boards.json per run ARE tracked.
+data/jobs/current.jsonl
+data/jobs/*/jobs.jsonl
+data/raw/

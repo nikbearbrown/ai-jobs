@@ -1,0 +1,35 @@
+{
+  "_comment": "The 22 frontier AI and data-science offerings listed on https://seisai.site/courses/ (portfolio prepared July 2026, Spring + Fall 2026 terms). Copied from that page; ids are ours. The page omits foundational SEIS courses (intro Python, database design, algorithms, software engineering, operating systems), which form the technical base every title family below also assumes. Availability belongs to Northeastern's catalog.",
+  "source": "https://seisai.site/courses/",
+  "clusters": {
+    "agentic": "Agentic AI and AI Systems Engineering",
+    "genai": "Generative AI, LLMs, and NLP",
+    "applied": "Applied AI in Domain Contexts",
+    "foundations": "AI Computing Foundations and Responsible AI"
+  },
+  "courses": [
+    {"id": "c01", "code": "CSYE 7374", "title": "Introduction to Agentic AI", "cluster": "agentic", "campus": ["Arlington"], "topics": "supervised LLM looping, building/tracing/evaluating/supervising agents, tools, reflection, planning, retrieval, memory, multi-agent workflows, safety"},
+    {"id": "c02", "code": "CSYE 7374", "title": "Intro AI Agent Infrastructure", "cluster": "agentic", "campus": ["Boston", "Online"], "topics": "LLMs from the ground up, embeddings, tokenization, RAG with vector and graph databases, distributed AI infrastructure, Akka actor model"},
+    {"id": "c03", "code": "CSYE 7374", "title": "Infrastructure & DevOps with LLMs", "cluster": "agentic", "campus": ["San Jose", "Oakland"], "topics": "deploying, operating and integrating LLM-based services into engineering workflows"},
+    {"id": "c04", "code": "INFO 7375", "title": "Prompt Engineering & Agentic AI", "cluster": "agentic", "campus": ["Boston"], "topics": "prompt design, agentic patterns, multi-step task automation, evaluation"},
+    {"id": "c05", "code": "INFO 7375", "title": "Self-Improving AI", "cluster": "agentic", "campus": ["Online"], "topics": "reinforcement learning, policy gradients (PPO, GRPO), LLM RL training, model adaptation, memory evolution, tool discovery"},
+    {"id": "c06", "code": "INFO 7375", "title": "System Design in the Age of AI", "cluster": "agentic", "campus": ["Boston"], "topics": "software architecture and engineering choices when AI components are part of the system"},
+    {"id": "c07", "code": "CSYE 7380", "title": "AI Generative Modeling: Theory and Practice", "cluster": "genai", "campus": ["Boston", "Online"], "topics": "GANs, VAEs, diffusion, transformers, LLMs, fine-tuning, prompt engineering, Bayesian networks, PyTorch/TensorFlow"},
+    {"id": "c08", "code": "INFO 7375", "title": "Advanced Techniques with LLMs", "cluster": "genai", "campus": ["Oakland", "San Jose"], "topics": "state-of-the-art LLM methods, prompt strategies, retrieval and tool use, applied generative AI workflows"},
+    {"id": "c09", "code": "INFO 7610", "title": "Natural Language Engineering Methods/Tools", "cluster": "genai", "campus": ["Seattle"], "topics": "NLP through transformers, GenAI/LLMs, LoRA fine-tuning, RAG, LLM agents, reasoning, RLHF"},
+    {"id": "c10", "code": "INFO 7375", "title": "Semantic Intelligence in LLM", "cluster": "genai", "campus": ["Seattle"], "topics": "meaning representation and reasoning in LLMs, applied NLP for search and knowledge work"},
+    {"id": "c11", "code": "DAMG 6300", "title": "Gen AI with LLMs in Data Engineering", "cluster": "genai", "campus": ["Boston"], "topics": "LLMs applied to data engineering workflows and pipelines"},
+    {"id": "c12", "code": "DAMG 6310", "title": "Knowledge Graphs with GenAI/Databases", "cluster": "genai", "campus": ["Online"], "topics": "structured knowledge representation combined with generative AI, graph databases"},
+    {"id": "c13", "code": "CSYE 7374", "title": "Deep Learning / Generative Modeling for Healthcare", "cluster": "applied", "campus": ["Online"], "topics": "deep learning and generative modeling for clinical and biomedical problems"},
+    {"id": "c14", "code": "INFO 7374", "title": "Machine Learning for Medical Devices", "cluster": "applied", "campus": ["San Jose"], "topics": "ML in safety-sensitive regulated medical-device contexts, validation"},
+    {"id": "c15", "code": "INFO 7375", "title": "Branding and AI", "cluster": "applied", "campus": ["Online"], "topics": "generative AI for communication, brand strategy and creative workflows"},
+    {"id": "c16", "code": "INFO 7375", "title": "User Experience in the Era of Gen AI", "cluster": "applied", "campus": ["Online"], "topics": "how AI changes product interaction, user expectations and workflow design"},
+    {"id": "c17", "code": "INFO 7375", "title": "Building AI Applications", "cluster": "applied", "campus": ["Online"], "topics": "turning AI capabilities into usable software: prototyping, deployment, user-facing AI"},
+    {"id": "c18", "code": "CSYE 7105", "title": "High-Performance Parallel Machine Learning and AI", "cluster": "foundations", "campus": ["Boston"], "topics": "parallel ML/DL on heterogeneous clusters and accelerators"},
+    {"id": "c19", "code": "INFO 7375", "title": "High Performance Computing for AI", "cluster": "foundations", "campus": ["Online"], "topics": "compute infrastructure for AI: parallel execution, hardware acceleration, scalable training and inference"},
+    {"id": "c20", "code": "INFO 7375", "title": "Computational Skepticism", "cluster": "foundations", "campus": ["Boston"], "topics": "critical evaluation of AI outputs, uncertainty, verification, limitations, responsible use"},
+    {"id": "c21", "code": "INFO 6106", "title": "Neural Modeling Methods and Tools", "cluster": "foundations", "campus": ["Boston"], "topics": "graph-theoretic neural models, explainability, trust in machine-generated models"},
+    {"id": "c22", "code": "INFO 7375", "title": "Data Engineering for AI", "cluster": "foundations", "campus": ["Seattle", "Online"], "topics": "data pipelines, preparation and infrastructure for reliable AI systems"}
+  ],
+  "foundation_courses_not_listed_on_page": ["intro Python", "database design", "algorithms", "software engineering", "operating systems"]
+}
