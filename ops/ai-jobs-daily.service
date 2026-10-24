@@ -1,0 +1,28 @@
+[Unit]
+Description=ai-jobs: read public job boards, publish counts and summaries
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=jobs
+Group=jobs
+WorkingDirectory=/home/jobs/ai-jobs
+Environment=HOME=/home/jobs
+ExecStart=/home/jobs/ai-jobs/ops/run-daily.sh
+TimeoutStartSec=3h
+# Share the box politely with the auditor (2 cores, 3.8 GB)
+Nice=10
+IOSchedulingClass=idle
+CPUQuota=100%
+MemoryMax=1800M
+# Sandbox: this unit needs the network and /home/jobs, nothing else
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ReadWritePaths=/home/jobs
+ProtectKernelTunables=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=yes
+LockPersonality=yes

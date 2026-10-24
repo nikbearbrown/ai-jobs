@@ -161,6 +161,9 @@ def main():
     (out_dir / "summary.json").write_text(json.dumps(summary, indent=1) + "\n")
     (out_dir / "boards.json").write_text(json.dumps(status_rows, indent=1) + "\n")
     print(json.dumps({k: v for k, v in summary.items() if k not in ("by_title_family", "boards_failed")}, indent=1))
+    if boards and 2 * len(summary["boards_failed"]) > len(boards):
+        print("MORE THAN HALF THE BOARDS FAILED: network or a block, not 'no jobs'. Exit 2 so the wrapper halts.", file=sys.stderr)
+        return 2
     return 0
 
 

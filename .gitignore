@@ -6,3 +6,4 @@ __pycache__/
 data/jobs/current.jsonl
 data/jobs/*/jobs.jsonl
 data/raw/
+data/jobs/*/entry-level.csv

@@ -15,6 +15,7 @@ import datetime
 import json
 import re
 import threading
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from . import providers as P
@@ -144,6 +145,7 @@ def main():
                 n += 1
                 if n % 100 == 0:
                     print(f"{n}/{len(todo)}", flush=True)
+    Path(a.out).with_suffix(".done").write_text(datetime.datetime.now(datetime.timezone.utc).isoformat() + "\n")  # marks a COMPLETE probe
     print("done", flush=True)
 
 
