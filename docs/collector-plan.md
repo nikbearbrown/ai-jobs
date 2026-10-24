@@ -9,7 +9,7 @@
 
 ## What leaves the box, and what does not
 
-| Leaves (committed to the private repo) | Stays on the box |
+| Leaves (committed to the repo) | Stays on the box |
 |---|---|
 | `data/jobs/DATE/summary.json` (counts) | `data/jobs/DATE/jobs.jsonl`, `data/jobs/current.jsonl` (the postings; last 7 days kept) |
 | `data/jobs/DATE/boards.json` (per-board read status and counts) | `data/jobs/DATE/entry-level.csv` (titles and links of individual postings; gitignored) |
