@@ -83,3 +83,10 @@ No claim of having the latest source data is made.
 synthetic offline tests. It is not registered with the existing probe or collector;
 no API credentials were configured and no live search was performed. Search
 absence never closes a posting. Static feed v1 does not yet accept this provider.
+
+## Optional Workday adapter
+
+[Workday](docs/workday-adapter.md) adds reviewed-source configuration, strict
+identity/detail checks and bounded pagination. It is disabled without a current
+permitted-source review and is tested with invented payloads only. No production
+tenant is enabled; site restrictions and endpoint verification remain blockers.

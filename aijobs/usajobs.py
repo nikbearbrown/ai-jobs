@@ -78,11 +78,11 @@ def normalise(item):
     url = https_url(d.get('PositionURI'), 'www.usajobs.gov')
     require(urlsplit(url).path.rstrip('/').split('/')[-1] == sid, 'job_url_identity_mismatch')
     f = {**blank_fields(), 'source_id': sid, 'title': text(d.get('PositionTitle'), True), 'url': url}
-    applies = d.get('ApplyURI') or []
+    applies = ([] if d.get('ApplyURI') is None else d['ApplyURI'])
     require(type(applies) is list, 'invalid_apply_urls')
     if applies:
         f['apply_url'] = https_url(applies[0])  # Link only; never followed.
-    locs = items(d.get('PositionLocation') or [])
+    locs = items(([] if d.get('PositionLocation') is None else d['PositionLocation']))
     for loc in locs:
         name = text(loc.get('LocationName'))
         if name and name not in f['locations']:
@@ -96,13 +96,13 @@ def normalise(item):
             f['country_codes'].append(code)
     if not f['locations'] and d.get('PositionLocationDisplay'):
         f['locations'] = [text(d['PositionLocationDisplay'], True)]
-    schedules = items(d.get('PositionSchedule') or [])
+    schedules = items(([] if d.get('PositionSchedule') is None else d['PositionSchedule']))
     codes = {text(s.get('Code')) for s in schedules}
     f['employment_type'] = {'1': 'full_time', '2': 'part_time'}.get(next(iter(codes))) if len(codes) == 1 else None
     f['department'] = text(d.get('DepartmentName'))
     f['posted_at'] = iso_date(d.get('PublicationStartDate'))
     # Query RemoteIndicator is a filter, not a record field; no workplace inference.
-    salary = items(d.get('PositionRemuneration') or [])
+    salary = items(([] if d.get('PositionRemuneration') is None else d['PositionRemuneration']))
     if len(salary) == 1:
         s = salary[0]
         low, high = numeric(s.get('MinimumRange')), numeric(s.get('MaximumRange'))

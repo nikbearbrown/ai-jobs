@@ -5,9 +5,7 @@ No automatic registration with the existing credential-free probe/collector.
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-import hashlib
 import json
-import math
 import time
 import urllib.error
 import urllib.request
@@ -15,6 +13,9 @@ from urllib.parse import urlsplit
 
 from . import __version__, infer
 from .feed import check_schema, schema
+
+
+_BLOCKED_UNTIL = {}  # Same-origin cooldown survives new Transport instances in this process.
 
 
 class SourceError(ValueError):
@@ -110,8 +111,9 @@ class Transport:
         https_url(url)
         require(f'{urlsplit(url).scheme}://{urlsplit(url).netloc}' == self.origin, 'unexpected_origin')
         now = self.clock()
-        if now < self.blocked_until:
-            return Reply(429, retry_at=self.blocked_until)
+        blocked_until = max(self.blocked_until, _BLOCKED_UNTIL.get(self.origin, 0))
+        if now < blocked_until:
+            return Reply(429, retry_at=blocked_until)
         if self.next_request > now:
             self.sleep(min(2, self.next_request - now))
         self.next_request = self.clock() + 1.0
@@ -145,6 +147,7 @@ class Transport:
             if status == 429 or error.headers.get('Retry-After'):
                 retry_at = retry_time(error.headers.get('Retry-After'), self.clock())
                 self.blocked_until = retry_at
+                _BLOCKED_UNTIL[self.origin] = retry_at
             error.close()
             return Reply(status, retry_at=retry_at)
         except (OSError, ValueError, RecursionError):

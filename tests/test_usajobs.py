@@ -133,6 +133,12 @@ class USAJOBS(unittest.TestCase):
         failed=self.fetch([S.Reply(403)])[0]
         self.assertEqual(S.merge(prior.records,failed),list(prior.records))
 
+    def test_invalid_optional_array_is_not_an_empty_success(self):
+        for field in ('ApplyURI','PositionLocation','PositionSchedule','PositionRemuneration'):
+            j=job();j['MatchedObjectDescriptor'][field]=False
+            result,_=self.fetch([page([j])])
+            self.assertFalse(result.complete)
+
     def test_page_limit_is_not_complete(self):
         result=U.fetch(U.Config(page_size=1,max_pages=1),U.Credentials('x@example.invalid','fake'),
                        transport=Fake([page([job()],2)]),observed_at=NOW)
@@ -140,6 +146,11 @@ class USAJOBS(unittest.TestCase):
 
 
 class Transport(unittest.TestCase):
+    def setUp(self):
+        patcher=patch.dict(S._BLOCKED_UNTIL,{},clear=True)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
     def test_retry_after_seconds_and_http_date_are_not_shortened(self):
         self.assertEqual(S.retry_time('86400',100),86500)
         self.assertEqual(S.retry_time('Thu, 01 Jan 1970 01:00:00 GMT',100),3600)
@@ -160,6 +171,9 @@ class Transport(unittest.TestCase):
         self.assertEqual(second.retry_at,86500)
         self.assertEqual(opener.calls,1)
         self.assertNotIn('secret',repr(first))
+        restarted=S.Transport(U.ORIGIN,opener=opener,clock=lambda:100)
+        self.assertEqual(restarted.request(U.ENDPOINT).retry_at,86500)
+        self.assertEqual(opener.calls,1)
 
     def test_redirects_and_cross_origin_credentials_are_rejected(self):
         self.assertIsNone(S.NoRedirect().redirect_request(None,None,302,'',{},'https://example.invalid'))

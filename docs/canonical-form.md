@@ -44,3 +44,11 @@ See [the adapter contract](usajobs-adapter.md) for the implemented field mapping
 public-search scope, required optional credentials and completeness rules. It is
 synthetically tested only. Unlike a full employer board, absence from search does
 not establish closure. The existing six-provider collection path is unchanged.
+
+## Optional Workday mapping
+
+See [the Workday adapter contract](workday-adapter.md) for the tested synthetic
+CXS shape, strict tenant/host/site/requisition checks, location handling and
+required source-review evidence. Live Workday collection is not enabled. A full
+board succeeds only after every page and detail validates; errors retain prior
+state. Relative dates and unverified field meanings remain unknown.

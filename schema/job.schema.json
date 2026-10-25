@@ -9,7 +9,7 @@
   "properties": {
     "schema_version": {"const": 1},
     "id": {"type": "string", "description": "provider:board:source_id. Stable across runs; the key every diff uses."},
-    "provider": {"enum": ["greenhouse", "lever", "ashby", "smartrecruiters", "workable", "recruitee", "custom", "usajobs"]},
+    "provider": {"enum": ["greenhouse", "lever", "ashby", "smartrecruiters", "workable", "recruitee", "custom", "usajobs", "workday"]},
     "board": {"type": "string", "description": "The board slug exactly as the provider's API takes it (case and spaces preserved)."},
     "source_id": {"type": "string", "description": "The provider's own posting id, as a string."},
     "company": {"type": "string", "description": "Display name from companies.csv for company boards; agency name from USAJOBS when no company-list mapping exists."},

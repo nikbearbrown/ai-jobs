@@ -74,7 +74,7 @@ wired into `collect.merge_state`, which would otherwise close missing records.
 Transport rejects redirects (so headers never follow another host), non-JSON,
 compressed or >8 MiB responses, duplicate JSON keys and nonfinite values. Calls
 are sequential with at least one second spacing; a run stops on the first error.
-429/Retry-After accepts seconds or HTTP-date and blocks that Transport instance;
+429/Retry-After accepts seconds or HTTP-date and blocks that origin across Transport instances in the process;
 there are no automatic retries, alternate hosts or rate-limit workarounds. Retain
 `retry_at` in the future scheduler across process restarts before any new attempt.
 An unspecified/malformed 429 delay defaults to an hour. No scheduler is configured.
