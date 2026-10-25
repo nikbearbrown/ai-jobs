@@ -1,0 +1,10 @@
+[Unit]
+Description=Lectern daily run
+
+[Timer]
+OnCalendar=*-*-* 12:30:00 UTC
+RandomizedDelaySec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
