@@ -1,0 +1,158 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "job_schema",
+    "date",
+    "run_id",
+    "started_at",
+    "completed_at",
+    "generated_at",
+    "mode",
+    "rights",
+    "snapshot",
+    "source_health",
+    "coverage"
+  ],
+  "properties": {
+    "schema": {
+      "const": "aijobs-static-v2"
+    },
+    "job_schema": {
+      "const": "feed-job-v2"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "\\d{4}-\\d{2}-\\d{2}"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "completed_at": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "mode": {
+      "const": "full"
+    },
+    "rights": {
+      "const": "review-required"
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256",
+        "bytes",
+        "records"
+      ],
+      "properties": {
+        "path": {
+          "const": "snapshot.jsonl"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "[a-f0-9]{64}"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 268435456
+        },
+        "records": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 500000
+        }
+      }
+    },
+    "source_health": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "provider",
+          "board",
+          "state",
+          "postings",
+          "closure_safe"
+        ],
+        "properties": {
+          "provider": {
+            "enum": [
+              "greenhouse",
+              "lever",
+              "ashby",
+              "smartrecruiters",
+              "workable",
+              "recruitee",
+              "custom",
+              "usajobs",
+              "workday"
+            ]
+          },
+          "board": {
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "ok",
+              "failed",
+              "unknown"
+            ]
+          },
+          "postings": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "closure_safe": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "known_boards",
+        "ok",
+        "failed",
+        "unknown"
+      ],
+      "properties": {
+        "known_boards": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ok": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unknown": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/ai-jobs/schema/feed-manifest-v2.schema.json",
+  "title": "Static feed v2 manifest"
+}

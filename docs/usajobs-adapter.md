@@ -82,8 +82,9 @@ An unspecified/malformed 429 delay defaults to an hour. No scheduler is configur
 ## Compatibility and next steps
 
 Canonical provider vocabulary adds `usajobs`. The **frozen static feed v1 enum is
-unchanged and rejects these rows**; a reviewed feed version is needed before site
-integration. No real records or ad bodies are committed or published.
+unchanged and rejects these rows**. [Opt-in feed v2](static-feed-v2.md) now provides
+the offline captured-result bridge, observation evidence and local acceptance.
+Production consumer integration remains separate. No real records or ad bodies are committed or published.
 
 Tests: `python3 -m unittest discover -s tests` (offline).
 

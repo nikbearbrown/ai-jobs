@@ -82,7 +82,8 @@ No claim of having the latest source data is made.
 [USAJOBS](docs/usajobs-adapter.md) has an explicit credential/config contract and
 synthetic offline tests. It is not registered with the existing probe or collector;
 no API credentials were configured and no live search was performed. Search
-absence never closes a posting. Static feed v1 does not yet accept this provider.
+absence never closes a posting. Static feed v1 rejects this provider; [opt-in feed v2](docs/static-feed-v2.md)
+connects captured results to locally accepted snapshots.
 
 ## Optional Workday adapter
 
@@ -90,3 +91,11 @@ absence never closes a posting. Static feed v1 does not yet accept this provider
 identity/detail checks and bounded pagination. It is disabled without a current
 permitted-source review and is tested with invented payloads only. No production
 tenant is enabled; site restrictions and endpoint verification remain blockers.
+
+## Optional adapter feed integration
+
+[Static feed v2](docs/static-feed-v2.md) adds USAJOBS and Workday without changing
+the v1 contract or default. The offline captured-result bridge preserves search
+absence as stale/unknown and permits closures only from complete boards. Synthetic
+end-to-end tests cover both adapters through export, validation and acceptance.
+Credentials, source-review gates and live-collection prerequisites remain unchanged.

@@ -118,7 +118,8 @@ or HTTP-date are honored without truncation; keep retry_at across restarts befor
 scheduling another call. No scheduler or collection job is installed here.
 
 The canonical provider enum includes Workday. Frozen static feed v1 still rejects
-both new providers; do not silently widen it or send these records to production.
+both new providers. [Opt-in feed v2](static-feed-v2.md) supports already captured
+results through local acceptance without changing v1 or activating collection.
 No actual job data was committed. No source is automatically approved for public
 redistribution by the MIT software license or this adapter.
 
