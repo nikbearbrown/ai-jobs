@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nikbearbrown/ai-jobs/schema/feed-job-v1.schema.json",
+  "title": "Static feed v1 public candidate fields (canonical v1 projection)",
+  "description": "Frozen canonical field definitions; field eligibility does not establish redistribution rights. No ad text, compensation, description hash or provenance URL.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "provider",
+    "board",
+    "source_id",
+    "company",
+    "title",
+    "url",
+    "first_seen",
+    "last_seen",
+    "status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "description": "provider:board:source_id. Stable across runs; the key every diff uses."
+    },
+    "provider": {
+      "enum": [
+        "greenhouse",
+        "lever",
+        "ashby",
+        "smartrecruiters",
+        "workable",
+        "recruitee",
+        "custom"
+      ]
+    },
+    "board": {
+      "type": "string",
+      "description": "The board slug exactly as the provider's API takes it (case and spaces preserved)."
+    },
+    "source_id": {
+      "type": "string",
+      "description": "The provider's own posting id, as a string."
+    },
+    "company": {
+      "type": "string",
+      "description": "Display name from companies.csv, not from the board."
+    },
+    "company_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Slug of the companies.csv row, or null for a board not on the list."
+    },
+    "title": {
+      "type": "string",
+      "description": "Exactly as posted."
+    },
+    "url": {
+      "type": "string",
+      "description": "Public posting page."
+    },
+    "apply_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Location strings exactly as the board gave them; one entry per place when the board lists several."
+    },
+    "country_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ISO 3166-1 alpha-2, only where the board stated a country (SmartRecruiters, Workable, Recruitee do; Greenhouse/Lever/Ashby usually do not)."
+    },
+    "workplace": {
+      "enum": [
+        "onsite",
+        "hybrid",
+        "remote",
+        null
+      ],
+      "description": "As stated by the board (Lever workplaceType, Ashby isRemote/workplaceType, SmartRecruiters location.remote). Null when not stated, never inferred from the location text."
+    },
+    "department": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "team": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "employment_type": {
+      "enum": [
+        "full_time",
+        "part_time",
+        "contract",
+        "intern",
+        "temporary",
+        "other",
+        null
+      ]
+    },
+    "posted_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "ISO 8601 date or datetime the board published it. Greenhouse's 'updated_at' is NOT a posted date and is stored in updated_at."
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "inferred": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Conclusions of ours, each with the rule that made it. Replace the rule version, never edit old records.",
+      "properties": {
+        "seniority": {
+          "enum": [
+            "intern",
+            "entry",
+            "mid",
+            "senior",
+            "staff",
+            "manager",
+            "director",
+            "exec",
+            null
+          ]
+        },
+        "seniority_rule": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title_family": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Key from data/titles/titles.json, first match wins."
+        },
+        "title_rule": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "first_seen": {
+      "type": "string",
+      "description": "Date of the first run that saw this id."
+    },
+    "last_seen": {
+      "type": "string",
+      "description": "Date of the last run that saw it."
+    },
+    "status": {
+      "enum": [
+        "open",
+        "gone"
+      ],
+      "description": "'gone' only when the board itself was read successfully and no longer lists the id. A board that failed to load never closes a posting."
+    }
+  }
+}

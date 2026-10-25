@@ -1,0 +1,14 @@
+[
+  {
+    "provider": "custom",
+    "board": "synthetic-alpha",
+    "read_ok": true,
+    "postings": 1
+  },
+  {
+    "provider": "custom",
+    "board": "synthetic-beta",
+    "read_ok": true,
+    "postings": 1
+  }
+]

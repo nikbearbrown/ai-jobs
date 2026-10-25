@@ -7,3 +7,7 @@ data/jobs/current.jsonl
 data/jobs/*/jobs.jsonl
 data/raw/
 data/jobs/*/entry-level.csv
+
+# Static feed outputs are local working data, never real-data publication via git.
+data/feed/
+data/feed-demo/
