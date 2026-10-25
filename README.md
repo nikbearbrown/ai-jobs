@@ -76,3 +76,10 @@ No claim of having the latest source data is made.
 1. The repository is **public** (it was created private on 2026-10-24). The original software now has an MIT licence; third-party data rights remain separate, and `data/jobs/2026-10-24/entry-level.csv` (a list of 1,891 individual postings, committed from the first Mac run) is in the public tree although the box publishes only counts and summaries. Decide whether to keep that file; it has not been removed or relicensed.
 2. Which adapter next: Workday (most banks, hospitals, consultancies), or USAJOBS (federal, has a documented free API)?
 3. Review source/field rights and the static-feed importer checklist before connecting real postings to seis.jobs; only counts and summaries leave the box today.
+
+## Optional USAJOBS adapter
+
+[USAJOBS](docs/usajobs-adapter.md) has an explicit credential/config contract and
+synthetic offline tests. It is not registered with the existing probe or collector;
+no API credentials were configured and no live search was performed. Search
+absence never closes a posting. Static feed v1 does not yet accept this provider.

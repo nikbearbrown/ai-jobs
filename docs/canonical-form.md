@@ -37,3 +37,10 @@
 * **Workday, iCIMS, Taleo, Oracle Recruiting, SuccessFactors, ADP, UKG, Jobvite, BambooHR, Paycom, Teamtailor, Personio, Breezy** and every company's own careers site. Large employers (banks, consultancies, hospitals, government, most of Fortune 500) mostly use these. They are the main reason the probe finds few boards in regulated sectors. Each needs its own adapter; Workday needs the tenant, pod and site name found from the careers page first. Lectern already has hand-built collectors for Google, Amazon, Microsoft and Meta (`lectern/collect/collectors/`).
 * **Aggregators** (Indeed, LinkedIn, Glassdoor, ZipRecruiter) forbid scraping in their terms and are deliberately not used.
 * **USAJOBS** (federal) has a documented public API with a free key. Not wired.
+
+## Optional USAJOBS mapping
+
+See [the adapter contract](usajobs-adapter.md) for the implemented field mapping,
+public-search scope, required optional credentials and completeness rules. It is
+synthetically tested only. Unlike a full employer board, absence from search does
+not establish closure. The existing six-provider collection path is unchanged.
