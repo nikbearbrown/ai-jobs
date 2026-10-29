@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Daily run on the Hetzner box (user: jobs). Reads public job boards, writes data/jobs/DATE/, and commits ONLY
-# counts and summaries (summary.json, boards.json, seis-fit.md). Postings themselves (jobs.jsonl, current.jsonl,
+# counts and summaries (summary.json, boards.json, seis-fit.md; plus data/probes/probe-DATE-new.* on a day a new company was probed). Postings themselves (jobs.jsonl, current.jsonl,
 # entry-level.csv) never leave the box. The only other thing it does is one Discord status post per run (counts only, see
 # aijobs/notify.py); it sends no mail and touches no other service.
 #
@@ -21,12 +21,18 @@ fail() { trap - ERR; say --status failed --step "$STEP"; exit "${1:-1}"; }   # e
 STEP=pull
 trap 'rc=$?; say --status failed --step "$STEP"; exit $rc' ERR
 
+# titles.json and companies.csv are generated from their .src files (aijobs/sync.py). Put them back to the committed copy first so a stale
+# one from the last run can never block the pull; they are rebuilt right after it and never committed from here.
+git checkout --quiet -- data/titles/titles.json data/companies/companies.csv
 git pull --rebase --quiet
 
-# newest probe that finished (probe-DATE.done exists)
-PROBE=""
-for f in data/probes/probe-*.jsonl; do [ -e "${f%.jsonl}.done" ] && PROBE="$f"; done
-[ -n "$PROBE" ] || { echo "no completed probe file; run ops/run-weekly-probe.sh first"; STEP=probe; fail 1; }
+# A category added to main (a title family or a company) takes effect now: rebuild the lists, and probe only companies no probe has seen.
+STEP=sync
+python3 -m aijobs.sync --date "$DATE" || { echo "sync failed: a category source is broken"; fail 1; }
+
+# newest probe that finished (probe-DATE.done exists); aijobs.sync orders them, not the shell's glob
+STEP=probe
+PROBE=$(python3 -m aijobs.sync --print-probe) || { echo "no completed probe file; run ops/run-weekly-probe.sh first"; fail 1; }
 echo "probe: $PROBE"
 
 STEP=collect
@@ -45,9 +51,11 @@ OUT="data/jobs/$DATE"
 if [ "${AIJOBS_NO_PUBLISH:-0}" = "1" ]; then echo "AIJOBS_NO_PUBLISH=1: not committing"; else
   STEP=publish
   git add -- "$OUT/summary.json" "$OUT/boards.json" "$OUT/seis-fit.md"
+  # the extended probe, only on a day it was made (which companies have which board; no postings)
+  [ -e "data/probes/probe-$DATE-new.done" ] && git add -- "data/probes/probe-$DATE-new.jsonl" "data/probes/probe-$DATE-new.done"
   if git diff --cached --quiet; then echo "nothing new to commit"; else
     git commit -q -m "Daily collection $DATE (counts and summaries only; run on the Hetzner box)"
-    git pull --rebase --quiet
+    git pull --rebase --autostash --quiet   # autostash: the rebuilt titles.json / companies.csv may differ from the committed copy
     git push --quiet
     echo "pushed summaries for $DATE"
   fi

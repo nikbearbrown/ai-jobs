@@ -78,6 +78,10 @@ def build_ok(summary, labels=None):
         early = sen.get("entry", 0) + sen.get("intern", 0)
         lines.append("")
         lines.append(f"Entry-level or internship by title: {_n(early)} of the new postings")
+    added = (summary.get("categories") or {}).get("added_since_last_run") or []
+    if added:
+        lines.append("")
+        lines.append("New categories loaded today: " + ", ".join(labels.get(k, k) for k in added) + ". Their postings are counted from this run on.")
     failed = summary.get("boards_failed") or []
     if failed:
         lines.append("")

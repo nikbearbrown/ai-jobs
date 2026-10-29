@@ -15,9 +15,10 @@ import datetime
 import json
 import sys
 import threading
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from . import __version__, infer
+from . import __version__, infer, sync
 from . import providers as P
 from .paths import COMPANIES, DATA, JOBS
 
@@ -168,6 +169,8 @@ def main():
         "by_title_family": dict(sorted(fam.items(), key=lambda x: -x[1])),
         "by_seniority": dict(sorted(sen.items(), key=lambda x: -x[1])),
         "by_provider": {p: sum(1 for r in opened if r["provider"] == p) for p in P.PROVIDERS},
+        # which categories (title families) and company list this run used, with zero-count families shown
+        "categories": sync.categories_block(fam, Path(a.probe).name, sync.previous_summary(a.date)),
     }
     (out_dir / "summary.json").write_text(json.dumps(summary, indent=1) + "\n")
     (out_dir / "boards.json").write_text(json.dumps(status_rows, indent=1) + "\n")

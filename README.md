@@ -28,6 +28,7 @@
 | `docs/canonical-form.md` | how each ATS maps to it (field table) and what is not covered |
 | `docs/collector-plan.md` | how it runs on the Hetzner box, and how to stop or undo it |
 | `ops/` | `run-daily.sh`, `run-weekly-probe.sh` and the four systemd units installed on the box |
+| `docs/adding-a-category.md` | how a new category (game jobs, designer jobs, ...) reaches the box and the daily output |
 | `data/courses.json` | the 22 SEIS AI courses, copied from seisai.site/courses |
 | `data/titles/titles.src.txt` -> `titles.json` | the title list; edit the `.src.txt` |
 | `data/companies/src/*.txt` -> `companies.csv` | the company list by segment; `Name=slug1,slug2` adds slug guesses |
@@ -43,6 +44,7 @@
 python3 -m unittest discover -s tests            # 11 tests, no network
 python3 -m aijobs.build_titles                   # titles.src.txt -> titles.json
 python3 -m aijobs.build_companies                # src/*.txt -> companies.csv
+python3 -m aijobs.sync --no-probe                   # both of the above, plus a check that nothing is stale (the box does this every morning)
 python3 -m aijobs.probe --workers 12             # find each company's board (about 30 minutes; resumable; throttled per host)
 python3 -m aijobs.report data/probes/probe-DATE.jsonl
 python3 -m aijobs.collect --probe data/probes/probe-DATE.jsonl     # read every confirmed board (about 3 minutes)

@@ -25,6 +25,7 @@
 * Deploy key: `/home/jobs/.ssh/id_ed25519`, registered on `nikbearbrown/ai-jobs` only, read-write, titled "hetz jobs user (daily collector)". GitHub's host key was checked against the fingerprint GitHub publishes before it was trusted.
 * Units in `/etc/systemd/system/`: `ai-jobs-daily.{service,timer}`, `ai-jobs-weekly-probe.{service,timer}` (copies of `ops/`). Sandbox: `NoNewPrivileges`, `ProtectSystem=strict` with `/home/jobs` writable, `PrivateTmp`, network families restricted to IP and unix sockets.
 * **Code updates itself**: each run starts with `git pull --rebase`, so whatever is on `main` runs on the box the next morning as the unprivileged user. Treat pushes to `main` accordingly.
+* **Categories update themselves too**: right after the pull, `python3 -m aijobs.sync` rebuilds `titles.json` and `companies.csv` from their sources and probes only companies no probe has seen, so a new title family or employer pushed to `main` is in the next morning's `summary.json` (`categories` block). See [adding-a-category.md](adding-a-category.md).
 
 ## Daily Discord status post
 

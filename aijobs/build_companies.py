@@ -5,6 +5,7 @@ first file/segment that names a company keeps it; later mentions only add slug h
 Products that are not employers are listed in EXCLUDE and dropped.
 """
 import csv
+import io
 import re
 import sys
 
@@ -50,10 +51,14 @@ def candidates(name, hints):
     return out
 
 
-def main():
+FIELDS = ["company_id", "name", "sector", "segment", "hints", "slug_candidates", "source_file"]
+
+
+def build(sources):
+    """[(file name, text)] in the order they are read -> one row per distinct company (pure: no file is read or written)."""
     rows, index = [], {}
-    for path in sorted(COMPANIES_SRC.glob("*.txt")):
-        for raw in path.read_text().splitlines():
+    for fname, text in sources:
+        for raw in text.splitlines():
             line = raw.strip()
             if not line or line.startswith("#"):
                 continue
@@ -78,7 +83,7 @@ def main():
                     continue
                 index[key] = len(rows)
                 rows.append({"company_id": slugify(name), "name": name, "sector": sector, "segment": seg,
-                             "hints": hints, "source_file": path.name})
+                             "hints": hints, "source_file": fname})
     ids = {}
     for r in rows:  # make ids unique
         base, n = r["company_id"], 2
@@ -88,10 +93,25 @@ def main():
         ids[r["company_id"]] = True
         r["slug_candidates"] = "|".join(candidates(r["name"], r["hints"]))
         r["hints"] = "|".join(r["hints"])
+    return rows
+
+
+def to_csv(rows):
+    buf = io.StringIO(newline="")
+    w = csv.DictWriter(buf, fieldnames=FIELDS)
+    w.writeheader()
+    w.writerows(rows)
+    return buf.getvalue()
+
+
+def read_sources():
+    return [(p.name, p.read_text()) for p in sorted(COMPANIES_SRC.glob("*.txt"))]
+
+
+def main():
+    rows = build(read_sources())
     with COMPANIES.open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["company_id", "name", "sector", "segment", "hints", "slug_candidates", "source_file"])
-        w.writeheader()
-        w.writerows(rows)
+        f.write(to_csv(rows))
     by = {}
     for r in rows:
         by[r["sector"]] = by.get(r["sector"], 0) + 1
