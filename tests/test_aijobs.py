@@ -171,6 +171,13 @@ class Discord(unittest.TestCase):
             with self.assertRaises(notify.Unsafe):
                 notify.to_payload({"title": "t", "description": bad, "footer": "f"})
 
+    def test_payload_is_plain_text_so_it_shows_with_embeds_switched_off(self):
+        p = notify.to_payload({"title": "T", "description": "body", "footer": "small", "url": "https://example.com/x"})
+        self.assertNotIn("embeds", p)
+        self.assertEqual(p["content"], "**T**\nbody\nhttps://example.com/x\n-# small")
+        self.assertEqual(p["flags"], 4)                                   # SUPPRESS_EMBEDS: no link-preview card
+        self.assertLessEqual(len(notify.to_payload({"title": "T", "description": "x" * 5000, "footer": "f"})["content"]), 2000)
+
     def test_payload_never_pings(self):
         p = notify.to_payload(notify.build_notice("2026-10-25", "failed"))
         self.assertEqual(p["allowed_mentions"], {"parse": []})

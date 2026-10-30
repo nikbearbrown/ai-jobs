@@ -22,7 +22,7 @@ else:
     text = f"Lectern's daily run on the server did not complete (step: {step}). Nothing was posted for this date. The server journal has the details."
 if re.search(r"/[U]sers/|/home/\w+|[\w.+-]+@[\w-]+\.[\w.]+|discord(app)?\.com/api/webhooks", title + text):
     print("NOT SENT: text contains a local path, email address or webhook URL"); sys.exit(0)
-payload = {"embeds": [{"title": title, "description": text}], "allowed_mentions": {"parse": []}}
+payload = {"content": f"**{title}**\n{text}", "flags": 4, "allowed_mentions": {"parse": []}}   # plain text: an embed-only post is empty for a reader with embeds off
 req = urllib.request.Request(url, data=json.dumps(payload).encode(), method="POST",
                              headers={"Content-Type": "application/json", "User-Agent": "lectern-box/0.1"})
 try:

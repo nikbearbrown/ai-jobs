@@ -107,10 +107,12 @@ def build_notice(date, status, step=None):
 
 def to_payload(embed):
     check_safe(" ".join(str(embed.get(k, "")) for k in ("title", "description", "footer", "url")))
-    e = {"title": embed["title"], "description": embed["description"], "footer": {"text": embed["footer"]}}
-    if embed.get("url"):
-        e["url"] = embed["url"]
-    return {"embeds": [e], "allowed_mentions": {"parse": []}}  # a status post must never ping anyone
+    # Plain text, not an embed: a reader with embeds switched off in Discord (User Settings, Chat) sees an embed-only post as an empty
+    # message (Seth, 2026-10-30). flags 4 = SUPPRESS_EMBEDS, so the link gets no preview card. "-# " is Discord's small-print line.
+    body = f"**{embed['title']}**\n{embed['description']}" + (f"\n{embed['url']}" if embed.get("url") else "") + f"\n-# {embed['footer']}"
+    if len(body) > 2000:
+        body = body[:1990].rstrip() + "\n…"
+    return {"content": body, "flags": 4, "allowed_mentions": {"parse": []}}  # a status post must never ping anyone
 
 
 def read_webhook():
