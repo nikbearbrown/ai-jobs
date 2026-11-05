@@ -2,8 +2,8 @@
 
 ## Executive summary
 
-**What this is.** The 84,832 open postings read from 716 confirmed company boards on 2026-11-05, sorted by whether the *title* looks like work a SEIS graduate is hired into.
-**What was found.** 24,739 of 60,095 postings (41%) have a title in a SEIS title family (counted without Domino's, whose 24,737 store-level postings would otherwise be 29% of everything). **1,990 are marked entry-level or internship by their title, 1,135 of them in the United States** (list in `entry-level.csv`).
+**What this is.** The 84,826 open postings read from 716 confirmed company boards on 2026-11-05, sorted by whether the *title* looks like work a SEIS graduate is hired into.
+**What was found.** 24,735 of 60,089 postings (41%) have a title in a SEIS title family (counted without Domino's, whose 24,737 store-level postings would otherwise be 29% of everything). **1,990 are marked entry-level or internship by their title, 1,135 of them in the United States** (list in `entry-level.csv`).
 **How far to trust it.** Title only. A title with no level word says nothing about experience required, so 'entry-level' undercounts what a new graduate could actually apply for and the bulk of the roles are simply unlabelled. Location is read from the text the board gave (US states or 'United States'), not geocoded. Only companies on Greenhouse, Lever, Ashby, SmartRecruiters and Recruitee are here; most banks, hospitals, consultancies and government sit on systems not yet read (see `data/companies/ats-coverage.md`).
 
 ## By title family
@@ -11,15 +11,15 @@
 | Family | Postings | Entry | Intern | Largest employers (postings) |
 |---|---:|---:|---:|---|
 | software-engineering | 8,000 | 157 | 148 | Anduril (420), SpaceX (292), Databricks (196), Elastic (193) |
-| product-management | 3,118 | 31 | 8 | Gopuff (322), Anduril (146), Veeva (126), Stripe (89) |
+| product-management | 3,117 | 31 | 8 | Gopuff (322), Anduril (146), Veeva (126), Stripe (89) |
 | solutions-customer | 2,379 | 55 | 6 | Veeva (105), Zscaler (82), ServiceNow (78), Esri (77) |
 | cloud-devops-sre | 2,006 | 39 | 15 | SpaceX (215), Databricks (174), Anduril (93), Accenture Federal Services (89) |
 | early-career | 1,249 | 365 | 804 | Carvana (167), Sezzle (77), Rocket Lab (73), Waymo (58) |
 | ai-engineering | 987 | 10 | 8 | Databricks (91), OpenAI (90), Legora (54), Anthropic (45) |
-| security | 899 | 9 | 12 | SpaceX (75), Coupang (27), Accenture Federal Services (26), Anduril (24) |
+| security | 900 | 9 | 12 | SpaceX (75), Coupang (27), Accenture Federal Services (26), Anduril (24) |
 | design-ux | 802 | 15 | 9 | SpaceX (74), Anduril (39), Intuitive Surgical (24), Stripe (18) |
 | analytics | 710 | 6 | 20 | Anduril (38), Intuitive Surgical (30), SpaceX (27), Delivery Hero (27) |
-| evals-quality | 702 | 17 | 9 | Anduril (159), SpaceX (72), Graphcore (33), Lucid Motors (28) |
+| evals-quality | 698 | 17 | 9 | Anduril (155), SpaceX (72), Graphcore (33), Lucid Motors (28) |
 | research | 607 | 15 | 50 | Perplexity (56), Anthropic (48), Reflection AI (23), Cohere (22) |
 | robotics-cps | 494 | 9 | 21 | Anduril (149), SpaceX (75), Skydio (32), Rocket Lab (25) |
 | data-science | 491 | 12 | 24 | Point72 (26), Grab (22), Accenture Federal Services (17), OpenAI (16) |
@@ -41,7 +41,7 @@
 
 | Company | SEIS-fit | Entry/intern |
 |---|---:|---:|
-| Anduril | 1276 | 68 |
+| Anduril | 1272 | 68 |
 | SpaceX | 1027 | 54 |
 | Databricks | 601 | 24 |
 | OpenAI | 462 | 0 |
@@ -64,7 +64,7 @@
 | Intuitive Surgical | 214 | 16 |
 | AbbVie | 212 | 60 |
 | Okta | 210 | 1 |
-| Roblox | 208 | 7 |
+| Roblox | 207 | 7 |
 | Nebius | 203 | 1 |
 | Harvey | 201 | 0 |
 | Zscaler | 194 | 1 |
