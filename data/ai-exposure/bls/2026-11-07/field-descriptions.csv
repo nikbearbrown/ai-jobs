@@ -1,0 +1,28 @@
+"AI Exposure Categories and Employment Projections, 2025–35",,
+"BLS employment projections are intended to capture long-term structural changes in the labor market. Assessing potential impacts of new and emerging technologies, including artificial intelligence (AI), is an area of focus for the BLS Employment Projections (EP) program. 
+
+This supplemental table provides information about how occupations compare to one another based on their theoretical and observed exposure to AI. BLS combined five publicly available data sources to create a four-category classification of relative AI exposure for detailed occupations. Exposure signifies that AI technology could be or has been used to assist or complete some of the work performed in an occupation. Exposure does not imply job loss, productivity gains, automation probability, or wage effects. See https://www.bls.gov/emp/publications/ai-exposure-categories.htm for additional information and limitations. ",,
+Employment Projections Program,,
+"Bureau of Labor Statistics, Department of Labor",,
+website: https://www.bls.gov/emp,,
+phone: 202-691-5700,,
+,,
+,,
+,,
+Field,Field Description,Format
+2025 National Employment Matrix title,SOC-based occupation title,Text
+2025 National Employment Matrix code,SOC-based occupation code,6-digit code
+"Employment, 2025","Employment in thousands of jobs, in 2025","Number of jobs in thousands, rounded to nearest hundred"
+"Employment, 2035","Employment in thousands of jobs, in 2035","Number of jobs in thousands, rounded to nearest hundred"
+"Employment change, numeric, 2025–35",Employment in 2035 minus employment in 2025,"Number of jobs in thousands, rounded to nearest hundred"
+"Employment change, percent, 2025–35",Numeric change divided by employment in 2025,"Percent, rounded to 1 decimal"
+"Percent self employed, 2025",Percent of occupation that is self employed,"Percent, rounded to 1 decimal"
+"Occupational openings, 2025–35 annual average",Annual average of occupational openings from 2025–35,"Number of jobs in thousands, rounded to nearest hundred"
+"Median annual wage, dollars, 2025",Median annual wage data from 2025,"Dollars, rounded to the nearest 10"
+Typical education needed for entry,"Education level by detailed occupation (No formal educational credential; High school diploma or equivalent; Some college, no degree; Postsecondary nondegree award; Associate's degree; Bachelor's degree; Master's degree; Doctoral or professional degree)",Text
+Work experience in a related occupation,Work experience by detailed occupation (None; Less than 5 years; 5 years or more),Text
+Typical on-the-job training needed to attain competency in the occupation,On-the-job training by detailed occupation (None; Short-term on the job training; Moderate-term on-the-job training; Long-term on-the-job training; Apprenticeship; Internship/residency),Text
+Relative AI exposure,"Relative AI exposure category (Low, Moderate, High, Very high)",Text
+,,
+Note:,,
+"Wage data are from the Occupational Employment and Wage Statistics program. The wage data cover non-farm wage and salary workers and do not cover the self-employed, owners and partners in unincorporated firms, or household workers.",,

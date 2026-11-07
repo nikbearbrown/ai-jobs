@@ -1,0 +1,40 @@
+{
+  "source_url": "https://www.bls.gov/emp/ind-occ-matrix/ai-exposure-categories.xlsx",
+  "retrieved_date": "2026-11-07",
+  "rows": 831,
+  "columns": 13,
+  "unique_occupation_codes": 831,
+  "category_counts": {
+    "Very high": 206,
+    "High": 206,
+    "Moderate": 206,
+    "Low": 213
+  },
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 2229,
+      "sha256": "08a86f63643d71a5d97e0600a890e9a1d4269b6fad3257e8359ed92e8c1ab631"
+    },
+    {
+      "name": "ai-exposure-categories.csv",
+      "bytes": 117872,
+      "sha256": "7ae82727fe13a63d14c3f6822f3f83a54658c6f27a1c9ae1769bef04ddbc2a33"
+    },
+    {
+      "name": "ai-exposure-categories.xlsx",
+      "bytes": 98102,
+      "sha256": "51f5779feea35b89d9c688970ebb9d2e03fca514b39a5100b66faa88abffb52b"
+    },
+    {
+      "name": "field-descriptions.csv",
+      "bytes": 3224,
+      "sha256": "84b1ef2b54f0d274270a2bab3607be0aac9843b0972e4eff1845c225b9bdb4a4"
+    },
+    {
+      "name": "workbook-notes.txt",
+      "bytes": 557,
+      "sha256": "17ef303dc2d62462905b22c520cd62b5675b097684fa7f95891aed96033398e6"
+    }
+  ]
+}

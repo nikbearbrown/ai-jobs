@@ -1,0 +1,18 @@
+{
+  "titles": 1609,
+  "confidence": {
+    "medium": 759,
+    "high": 219,
+    "low": 272,
+    "family-default": 308,
+    "none": 51
+  },
+  "distinct_socs": 58,
+  "exposure": {
+    "Very high": 1539,
+    "High": 17,
+    "Moderate": 2,
+    "unmapped": 51
+  },
+  "differs_from_family_default": 467
+}

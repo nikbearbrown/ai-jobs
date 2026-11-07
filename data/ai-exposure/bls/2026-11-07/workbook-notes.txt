@@ -1,0 +1,5 @@
+Note:
+Exposure signifies that AI technology could be or has been used to assist or complete some of the work performed in an occupation. Exposure does not imply job loss, productivity gains, automation probability, or wage effects.
+Wage data are from the Occupational Employment and Wage Statistics program. The wage data cover non-farm wage and salary workers and do not cover the self-employed, owners and partners in unincorporated firms, or household workers.
+Data is unavailable for values denoted with a "—".
+Source: U.S. Bureau of Labor Statistics.

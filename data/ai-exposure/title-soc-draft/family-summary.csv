@@ -1,0 +1,28 @@
+family,titles,high,medium,low,family-default,none,exp_Low,exp_Moderate,exp_High,exp_Very high,exp_unmapped,top_occupations
+ai-engineering,74,8,53,8,5,0,0,0,0,74,0,Software developers (68) | Sales engineers (4) | Training and development specialists (1)
+ml-engineering,58,2,51,1,4,0,0,0,0,58,0,Software developers (57) | Instructional coordinators (1)
+data-science,56,30,14,0,12,0,0,0,0,56,0,Data scientists (47) | Statisticians (3) | Financial and investment analysts (2)
+research,36,2,17,0,17,0,0,0,0,36,0,Computer and information research scientists (34) | Software developers (2)
+data-engineering,69,5,15,48,1,0,0,0,0,69,0,Software developers (58) | Database architects (5) | Database administrators (2)
+analytics,79,2,51,7,19,0,0,0,0,79,0,Data scientists (48) | Management analysts (9) | Market research analysts and marketing specialists (5)
+software-engineering,102,30,65,2,5,0,0,0,0,102,0,Software developers (94) | Web developers (4) | Computer and information systems managers (2)
+cloud-devops-sre,70,4,62,3,1,0,0,0,0,70,0,"Network and computer systems administrators (60) | Sales engineers (3) | Computer occupations, all other (2)"
+hpc-ai-infra,53,9,37,2,5,0,0,0,0,53,0,Software developers (46) | Network and computer systems administrators (4) | Sales engineers (2)
+security,69,1,61,7,0,0,0,0,0,69,0,Information security analysts (60) | Compliance officers (3) | Accountants and auditors (2)
+ai-governance-risk,64,4,15,22,23,0,0,0,0,64,0,"Business operations specialists, all other (31) | Compliance officers (10) | Social scientists and related workers, all other (7)"
+evals-quality,34,13,19,2,0,0,0,0,0,34,0,"Software quality assurance analysts and testers (32) | Engineers, all other (1) | Data entry keyers (1)"
+ai-training-data,38,2,1,20,15,0,0,0,0,38,0,"Business operations specialists, all other (19) | Data entry keyers (11) | Training and development specialists (2)"
+product-management,49,1,20,19,9,0,0,0,1,48,0,Project management specialists (41) | Management analysts (6) | Marketing managers (1)
+solutions-customer,59,7,5,25,22,0,0,0,0,59,0,"Sales engineers (40) | Sales representatives of services, except advertising, insurance, financial services, and travel (6) | Management analysts (6)"
+devrel-education,52,8,11,26,7,0,0,0,1,51,0,Training and development specialists (25) | Instructional coordinators (11) | Technical writers (6)
+design-ux,49,3,22,5,19,0,0,0,1,48,0,Web and digital interface designers (36) | Writers and authors (3) | Market research analysts and marketing specialists (3)
+marketing-brand,48,2,23,9,14,0,0,0,3,45,0,Market research analysts and marketing specialists (29) | Software developers (4) | Marketing managers (4)
+healthcare-ai,72,14,30,11,17,0,0,0,0,72,0,Computer systems analysts (27) | Software developers (18) | Data scientists (9)
+fintech-quant,74,22,26,10,16,0,0,0,0,74,0,Financial and investment analysts (21) | Software developers (18) | Data scientists (13)
+it-enterprise,91,2,33,22,34,0,0,0,0,91,0,Computer systems analysts (50) | Software developers (20) | Management analysts (7)
+robotics-cps,68,14,28,5,21,0,0,2,0,66,0,"Software developers (33) | Engineers, all other (26) | Data scientists (4)"
+gamedev-graphics,57,11,34,6,6,0,0,0,9,48,0,Software developers (45) | Special effects artists and animators (4) | Producers and directors (3)
+search-nlp,38,2,22,4,10,0,0,0,1,37,0,"Software developers (32) | Social scientists and related workers, all other (2) | Software quality assurance analysts and testers (1)"
+public-sector-research,47,12,12,1,22,0,0,0,1,46,0,Management analysts (22) | Data scientists (9) | Software developers (5)
+leadership,43,3,31,5,4,0,0,0,0,43,0,Computer and information systems managers (34) | Data scientists (3) | Software developers (3)
+early-career,60,6,1,2,0,51,0,0,0,9,51,Software developers (3) | Data scientists (3) | Project management specialists (2)
