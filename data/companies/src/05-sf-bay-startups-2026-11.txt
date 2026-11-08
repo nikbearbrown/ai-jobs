@@ -1,0 +1,14 @@
+# One line per segment:  sector/segment | Name; Name=slughint1,slughint2; ...
+# Source: a pasted image and LinkedIn comments about "36 SF Bay Area startups who've recently raised and are hiring" (posted 2026-11, open roles said to be checked 2026-11-05; author and map: scoringfactory.ai/hiring-map/sf-bay-area). Third-party, not verified here.
+# Only the names were taken. Funding rounds and amounts in that post are NOT used here. The slug hints below are the career-page
+# slugs given in the comments; they are guesses for the probe to test, not evidence. A board counts only if the probe confirms it names the company.
+# Already in the list from other files (not repeated): Goodfire, Periodic Labs, Factory, Cognition, Baseten, Decagon.
+# Companies the comments point to their own site for (no ATS slug known): Corgi, Dream Labs, SiMa.ai.
+
+ai/sf-bay-startups-ai-models | Applied Compute=Applied Compute,appliedcompute; Trajectory=trajectory; Elorian=elorian-ai-inc; Harmonic=Harmonic,harmonic; Sesame=sesame
+
+software/sf-bay-startups-infra-devtools | fal=fal-ai; General Compute=generalcompute; Infisical=infisical; Blacksmith=blacksmith; Reach Security=reach; CodeRabbit=coderabbit
+
+ai/sf-bay-startups-applied | Numeral=numeral; Kastle=kastle; AIUC=aiuc; Onos Health=onoshealth; Rillet=rillet; Monaco=monaco; Corgi; Juicebox=juicebox
+
+hardware/sf-bay-startups-deep-tech | Foundry Robotics=foundry-robotics; Bedrock Robotics=bedrock-robotics; Peak Energy=peakenergy; Reliable Robotics=reliable-robotics; Dream Labs; Multiply Labs=multiplylabs; SiMa.ai; Aurelius Systems=aureliussystems; Eliyan=eliyan; Astranis=astranis; Gridware=gridware

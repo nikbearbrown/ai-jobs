@@ -2573,3 +2573,33 @@ navy-federal-credit-union,Navy Federal Credit Union,regional,regional/seattle-ba
 penfed,Penfed,regional,regional/seattle-bay-area-dc-tech,,penfed,04-industry-and-regional.txt
 pentagon-federal,Pentagon Federal,regional,regional/seattle-bay-area-dc-tech,,pentagonfederal|pentagon-federal|pentagon_federal,04-industry-and-regional.txt
 fannie-mae-technology,Fannie Mae Technology,regional,regional/seattle-bay-area-dc-tech,,fanniemaetechnology|fannie-mae-technology|fannie_mae_technology,04-industry-and-regional.txt
+applied-compute,Applied Compute,ai,ai/sf-bay-startups-ai-models,Applied Compute|appliedcompute,Applied Compute|appliedcompute|applied-compute|applied_compute,05-sf-bay-startups-2026-11.txt
+trajectory,Trajectory,ai,ai/sf-bay-startups-ai-models,trajectory,trajectory,05-sf-bay-startups-2026-11.txt
+elorian,Elorian,ai,ai/sf-bay-startups-ai-models,elorian-ai-inc,elorian-ai-inc|elorian,05-sf-bay-startups-2026-11.txt
+harmonic,Harmonic,ai,ai/sf-bay-startups-ai-models,Harmonic|harmonic,Harmonic|harmonic,05-sf-bay-startups-2026-11.txt
+sesame,Sesame,ai,ai/sf-bay-startups-ai-models,sesame,sesame,05-sf-bay-startups-2026-11.txt
+fal,fal,software,software/sf-bay-startups-infra-devtools,fal-ai,fal-ai|fal,05-sf-bay-startups-2026-11.txt
+general-compute,General Compute,software,software/sf-bay-startups-infra-devtools,generalcompute,generalcompute|general-compute|general_compute,05-sf-bay-startups-2026-11.txt
+infisical,Infisical,software,software/sf-bay-startups-infra-devtools,infisical,infisical,05-sf-bay-startups-2026-11.txt
+blacksmith,Blacksmith,software,software/sf-bay-startups-infra-devtools,blacksmith,blacksmith,05-sf-bay-startups-2026-11.txt
+reach-security,Reach Security,software,software/sf-bay-startups-infra-devtools,reach,reach|reachsecurity|reach-security|reach_security,05-sf-bay-startups-2026-11.txt
+coderabbit,CodeRabbit,software,software/sf-bay-startups-infra-devtools,coderabbit,coderabbit,05-sf-bay-startups-2026-11.txt
+numeral,Numeral,ai,ai/sf-bay-startups-applied,numeral,numeral,05-sf-bay-startups-2026-11.txt
+kastle,Kastle,ai,ai/sf-bay-startups-applied,kastle,kastle,05-sf-bay-startups-2026-11.txt
+aiuc,AIUC,ai,ai/sf-bay-startups-applied,aiuc,aiuc,05-sf-bay-startups-2026-11.txt
+onos-health,Onos Health,ai,ai/sf-bay-startups-applied,onoshealth,onoshealth|onos-health|onos_health,05-sf-bay-startups-2026-11.txt
+rillet,Rillet,ai,ai/sf-bay-startups-applied,rillet,rillet,05-sf-bay-startups-2026-11.txt
+monaco,Monaco,ai,ai/sf-bay-startups-applied,monaco,monaco,05-sf-bay-startups-2026-11.txt
+corgi,Corgi,ai,ai/sf-bay-startups-applied,,corgi,05-sf-bay-startups-2026-11.txt
+juicebox,Juicebox,ai,ai/sf-bay-startups-applied,juicebox,juicebox,05-sf-bay-startups-2026-11.txt
+foundry-robotics,Foundry Robotics,hardware,hardware/sf-bay-startups-deep-tech,foundry-robotics,foundry-robotics|foundryrobotics|foundry_robotics,05-sf-bay-startups-2026-11.txt
+bedrock-robotics,Bedrock Robotics,hardware,hardware/sf-bay-startups-deep-tech,bedrock-robotics,bedrock-robotics|bedrockrobotics|bedrock_robotics,05-sf-bay-startups-2026-11.txt
+peak-energy,Peak Energy,hardware,hardware/sf-bay-startups-deep-tech,peakenergy,peakenergy|peak-energy|peak_energy,05-sf-bay-startups-2026-11.txt
+reliable-robotics,Reliable Robotics,hardware,hardware/sf-bay-startups-deep-tech,reliable-robotics,reliable-robotics|reliablerobotics|reliable_robotics,05-sf-bay-startups-2026-11.txt
+dream-labs,Dream Labs,hardware,hardware/sf-bay-startups-deep-tech,,dreamlabs|dream-labs|dream_labs|dream,05-sf-bay-startups-2026-11.txt
+multiply-labs,Multiply Labs,hardware,hardware/sf-bay-startups-deep-tech,multiplylabs,multiplylabs|multiply-labs|multiply_labs|multiply,05-sf-bay-startups-2026-11.txt
+sima-ai,SiMa.ai,hardware,hardware/sf-bay-startups-deep-tech,,simaai|sima-ai|sima_ai,05-sf-bay-startups-2026-11.txt
+aurelius-systems,Aurelius Systems,hardware,hardware/sf-bay-startups-deep-tech,aureliussystems,aureliussystems|aurelius-systems|aurelius_systems,05-sf-bay-startups-2026-11.txt
+eliyan,Eliyan,hardware,hardware/sf-bay-startups-deep-tech,eliyan,eliyan,05-sf-bay-startups-2026-11.txt
+astranis,Astranis,hardware,hardware/sf-bay-startups-deep-tech,astranis,astranis,05-sf-bay-startups-2026-11.txt
+gridware,Gridware,hardware,hardware/sf-bay-startups-deep-tech,gridware,gridware,05-sf-bay-startups-2026-11.txt
