@@ -62,6 +62,6 @@ python3 -m aijobs.story_mentions /path/to/books/seis
 
 ## Decisions waiting for Professor Bear
 
-1. The repository is **public** (it was created private on 2026-10-24). It has **no licence file**, so reuse terms are undefined, and `data/jobs/2026-10-24/entry-level.csv` (a list of 1,891 individual postings, committed from the first Mac run) is in the public tree although the box publishes only counts and summaries. Choose a licence, and decide whether to keep that file.
+1. The repository is **public** (it was created private on 2026-10-24). It has **no licence file**, so reuse terms are undefined: choose a licence. `data/jobs/2026-10-24/entry-level.csv` (a list of 1,891 individual postings, committed from the first Mac run) stays in the public tree: decided 2026-11-11. A posting's company, title, location and link are facts and can be published; only the ad's own text is the employer's, and it is hashed, not stored.
 2. Which adapter next: Workday (most banks, hospitals, consultancies), or USAJOBS (federal, has a documented free API)?
 3. How the postings reach seis.jobs, since only counts and summaries leave the box today.
