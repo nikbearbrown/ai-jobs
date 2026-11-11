@@ -64,18 +64,19 @@ The offline [static feed v1 contract](docs/static-feed-v1.md) provides a full-st
 exporter/validator, immutable date/run bundles, source-health and freshness metadata,
 synthetic fixtures, local atomic acceptance and an importer checklist. It is not
 connected to collection, hosting or seis.jobs yet. Run its examples only against
-the synthetic fixtures until source rights and the production handoff are reviewed.
+the synthetic fixtures until the production handoff is reviewed.
 
-Original software is licensed under [MIT](LICENSE). Third-party employer and
-O*NET data retain their own terms; see [DATA-PROVENANCE.md](DATA-PROVENANCE.md) for
+Original software is licensed under [MIT](LICENSE). Job postings are recorded as
+facts (company, title, location, link); the ad text is hashed, not stored. O*NET
+data retains its own terms; see [DATA-PROVENANCE.md](DATA-PROVENANCE.md) for
 attribution, pinned versions, checksums, coverage and modification requirements.
 No claim of having the latest source data is made.
 
 ## Decisions waiting for Professor Bear
 
-1. The repository is **public** (it was created private on 2026-10-24). The original software now has an MIT licence; third-party data rights remain separate, and `data/jobs/2026-10-24/entry-level.csv` (a list of 1,891 individual postings, committed from the first Mac run) is in the public tree although the box publishes only counts and summaries. Decide whether to keep that file; it has not been removed or relicensed.
+1. The repository is **public** (it was created private on 2026-10-24). The original software now has an MIT licence. `data/jobs/2026-10-24/entry-level.csv` (a list of 1,891 individual postings, committed from the first Mac run) stays in the public tree: decided 2026-11-11. A posting's company, title, location and link are facts and can be published; only the ad's own text is the employer's, and it is hashed, not stored.
 2. Which adapter next: Workday (most banks, hospitals, consultancies), or USAJOBS (federal, has a documented free API)?
-3. Review source/field rights and the static-feed importer checklist before connecting real postings to seis.jobs; only counts and summaries leave the box today.
+3. Review the static-feed importer checklist before connecting real postings to seis.jobs; only counts and summaries leave the box today.
 
 ## Optional USAJOBS adapter
 
