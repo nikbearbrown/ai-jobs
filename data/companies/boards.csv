@@ -1,676 +1,677 @@
 company_id,name,sector,provider,slug,postings_on_probe_day,verification,board_name
-domino-s,Domino's,retail,smartrecruiters,dominos,25121,board-name-match,Domino's
-spacex,SpaceX,consulting,greenhouse,spacex,2793,board-name-match,SpaceX
-anduril,Anduril,ai,greenhouse,andurilindustries,2612,board-name-match,Anduril Industries
-abbvie,AbbVie,health,smartrecruiters,abbvie,2045,board-name-match,AbbVie
-carvana,Carvana,software,greenhouse,carvana,1663,board-name-match,Carvana
-databricks,Databricks,data,greenhouse,databricks,901,board-name-match,Databricks
-veeva-systems,Veeva Systems,software,lever,veeva,865,ad-text-mentions-company,
-veeva,Veeva,health,lever,veeva,865,ad-text-mentions-company,
-intuitive-surgical,Intuitive Surgical,ai,smartrecruiters,intuitive,853,board-name-match,Intuitive
-openai,OpenAI,ai,ashby,openai,836,ad-text-mentions-company,
-servicenow,ServiceNow,software,smartrecruiters,servicenow,833,board-name-match,ServiceNow
-stripe,Stripe,software,greenhouse,stripe,789,board-name-match,Stripe
-delivery-hero,Delivery Hero,retail,smartrecruiters,deliveryhero,774,board-name-match,Delivery Hero
-gopuff,Gopuff,retail,lever,gopuff,756,ad-text-mentions-company,
-accenture-federal-services,Accenture Federal Services,regional,greenhouse,accenturefederalservices,704,board-name-match,Accenture Federal Services
-coupang,Coupang,retail,greenhouse,coupang,686,board-name-match,Coupang
-anthropic,Anthropic,ai,greenhouse,anthropic,658,board-name-match,Anthropic
-expeditors,Expeditors,retail,smartrecruiters,expeditors,542,board-name-match,Expeditors
-accor,Accor,travel,smartrecruiters,accor,539,board-name-match,Accor
-rocket-lab,Rocket Lab,consulting,greenhouse,rocketlab,535,board-name-match,Rocket Lab Corporation
-kipp,KIPP,nonprofit,smartrecruiters,kipp,531,board-name-match,KIPP
-lucid-motors,Lucid Motors,ai,greenhouse,lucidmotors,482,board-name-match,Lucid Motors
-cloudflare,Cloudflare,software,greenhouse,cloudflare,482,board-name-match,Cloudflare
-lyra-health,Lyra Health,software,lever,lyrahealth,481,ad-text-mentions-company,
-esri,Esri,data,greenhouse,esri,479,board-name-match,Esri
-grab,Grab,retail,smartrecruiters,grab,424,board-name-match,Grab
-doordash,DoorDash,software,greenhouse,doordashusa,416,board-name-match,DoorDash USA
-mongodb,MongoDB,data,greenhouse,mongodb,394,board-name-match,MongoDB
-experian,Experian,data,smartrecruiters,experian,384,board-name-match,Experian
-hearst,Hearst,media,greenhouse,hearst,384,board-name-match,Hearst
-harvey,Harvey,ai,ashby,harvey,383,ad-text-mentions-company,
-elastic,Elastic,ai,greenhouse,elastic,382,board-name-match,Elastic
-datadog,Datadog,data,greenhouse,datadog,382,board-name-match,Datadog
-waymo,Waymo,ai,greenhouse,waymo,375,board-name-match,Waymo
-zscaler,Zscaler,software,greenhouse,zscaler,374,board-name-match,Zscaler
-snowflake,Snowflake,data,ashby,snowflake,372,ad-text-mentions-company,
-nebius,Nebius,ai,greenhouse,nebius,371,board-name-match,Nebius
-hellofresh,HelloFresh,retail,greenhouse,hellofresh,366,board-name-match,HelloFresh
-okta,Okta,software,greenhouse,okta,359,board-name-match,Okta
-one-medical,One Medical,software,greenhouse,onemedical,348,board-name-match,One Medical
-legora,Legora,ai,ashby,legora,347,ad-text-mentions-company,
-harvard-university,Harvard University,media,smartrecruiters,harvarduniversity,336,board-name-match,Harvard University
-braze,Braze,data,greenhouse,braze,334,board-name-match,Braze
-toast,Toast,software,greenhouse,toast,331,board-name-match,Toast
-western-digital,Western Digital,hardware,smartrecruiters,westerndigital,327,board-name-match,Western Digital
-crusoe,Crusoe,ai,ashby,crusoe,323,ad-text-mentions-company,
-canonical,Canonical,software,greenhouse,canonical,316,board-name-match,Canonical
-samsara,Samsara,software,greenhouse,samsara,312,board-name-match,Samsara
-coreweave,CoreWeave,ai,greenhouse,coreweave,309,board-name-match,CoreWeave
-palantir,Palantir,data,lever,palantir,301,ad-text-mentions-company,
-saronic,Saronic,ai,ashby,saronic,279,ad-text-mentions-company,
-roblox,Roblox,ai,greenhouse,roblox,266,board-name-match,Roblox
-brex,Brex,software,greenhouse,brex,266,board-name-match,Brex
-formlabs,Formlabs,regional,greenhouse,formlabs,266,board-name-match,Formlabs
-coinbase,Coinbase,software,greenhouse,coinbase,257,board-name-match,Coinbase
-sezzle,Sezzle,software,greenhouse,sezzle,257,board-name-match,Sezzle
-gitlab,GitLab,software,greenhouse,gitlab,253,board-name-match,GitLab
-zoox,Zoox,ai,lever,zoox,242,ad-text-mentions-company,
-adyen,Adyen,software,greenhouse,adyen,239,board-name-match,Adyen
-navan,Navan,software,greenhouse,tripactions,236,board-name-match,Navan
-affirm,Affirm,software,greenhouse,affirm,221,board-name-match,Affirm
+domino-s,Domino's,retail,smartrecruiters,dominos,25221,board-name-match,Domino's
+spacex,SpaceX,consulting,greenhouse,spacex,2849,board-name-match,SpaceX
+anduril,Anduril,ai,greenhouse,andurilindustries,2606,board-name-match,Anduril Industries
+abbvie,AbbVie,health,smartrecruiters,abbvie,2008,board-name-match,AbbVie
+carvana,Carvana,software,greenhouse,carvana,1582,board-name-match,Carvana
+servicenow,ServiceNow,software,smartrecruiters,servicenow,991,board-name-match,ServiceNow
+databricks,Databricks,data,greenhouse,databricks,889,board-name-match,Databricks
+openai,OpenAI,ai,ashby,openai,877,ad-text-mentions-company,
+veeva-systems,Veeva Systems,software,lever,veeva,874,ad-text-mentions-company,
+veeva,Veeva,health,lever,veeva,874,ad-text-mentions-company,
+intuitive-surgical,Intuitive Surgical,ai,smartrecruiters,intuitive,850,board-name-match,Intuitive
+delivery-hero,Delivery Hero,retail,smartrecruiters,deliveryhero,794,board-name-match,Delivery Hero
+stripe,Stripe,software,greenhouse,stripe,771,board-name-match,Stripe
+gopuff,Gopuff,retail,lever,gopuff,751,ad-text-mentions-company,
+accenture-federal-services,Accenture Federal Services,regional,greenhouse,accenturefederalservices,715,board-name-match,Accenture Federal Services
+coupang,Coupang,retail,greenhouse,coupang,676,board-name-match,Coupang
+anthropic,Anthropic,ai,greenhouse,anthropic,636,board-name-match,Anthropic
+expeditors,Expeditors,retail,smartrecruiters,expeditors,563,board-name-match,Expeditors
+kipp,KIPP,nonprofit,smartrecruiters,kipp,562,board-name-match,KIPP
+rocket-lab,Rocket Lab,consulting,greenhouse,rocketlab,547,board-name-match,Rocket Lab Corporation
+cloudflare,Cloudflare,software,greenhouse,cloudflare,513,board-name-match,Cloudflare
+lucid-motors,Lucid Motors,ai,greenhouse,lucidmotors,498,board-name-match,Lucid Motors
+accor,Accor,travel,smartrecruiters,accor,498,board-name-match,Accor
+esri,Esri,data,greenhouse,esri,478,board-name-match,Esri
+grab,Grab,retail,smartrecruiters,grab,451,board-name-match,Grab
+lyra-health,Lyra Health,software,lever,lyrahealth,420,ad-text-mentions-company,
+mongodb,MongoDB,data,greenhouse,mongodb,418,board-name-match,MongoDB
+experian,Experian,data,smartrecruiters,experian,407,board-name-match,Experian
+hearst,Hearst,media,greenhouse,hearst,401,board-name-match,Hearst
+doordash,DoorDash,software,greenhouse,doordashusa,399,board-name-match,DoorDash USA
+harvey,Harvey,ai,ashby,harvey,394,ad-text-mentions-company,
+zscaler,Zscaler,software,greenhouse,zscaler,393,board-name-match,Zscaler
+elastic,Elastic,ai,greenhouse,elastic,389,board-name-match,Elastic
+datadog,Datadog,data,greenhouse,datadog,388,board-name-match,Datadog
+okta,Okta,software,greenhouse,okta,373,board-name-match,Okta
+snowflake,Snowflake,data,ashby,snowflake,371,ad-text-mentions-company,
+hellofresh,HelloFresh,retail,greenhouse,hellofresh,360,board-name-match,HelloFresh
+harvard-university,Harvard University,media,smartrecruiters,harvarduniversity,360,board-name-match,Harvard University
+waymo,Waymo,ai,greenhouse,waymo,358,board-name-match,Waymo
+one-medical,One Medical,software,greenhouse,onemedical,351,board-name-match,One Medical
+braze,Braze,data,greenhouse,braze,349,board-name-match,Braze
+nebius,Nebius,ai,greenhouse,nebius,348,board-name-match,Nebius
+western-digital,Western Digital,hardware,smartrecruiters,westerndigital,334,board-name-match,Western Digital
+legora,Legora,ai,ashby,legora,326,ad-text-mentions-company,
+coreweave,CoreWeave,ai,greenhouse,coreweave,318,board-name-match,CoreWeave
+canonical,Canonical,software,greenhouse,canonical,317,board-name-match,Canonical
+saronic,Saronic,ai,ashby,saronic,307,ad-text-mentions-company,
+palantir,Palantir,data,lever,palantir,305,ad-text-mentions-company,
+crusoe,Crusoe,ai,ashby,crusoe,304,ad-text-mentions-company,
+toast,Toast,software,greenhouse,toast,299,board-name-match,Toast
+samsara,Samsara,software,greenhouse,samsara,289,board-name-match,Samsara
+formlabs,Formlabs,regional,greenhouse,formlabs,272,board-name-match,Formlabs
+brex,Brex,software,greenhouse,brex,261,board-name-match,Brex
+roblox,Roblox,ai,greenhouse,roblox,255,board-name-match,Roblox
+gitlab,GitLab,software,greenhouse,gitlab,250,board-name-match,GitLab
+zoox,Zoox,ai,lever,zoox,247,ad-text-mentions-company,
+coinbase,Coinbase,software,greenhouse,coinbase,247,board-name-match,Coinbase
+adyen,Adyen,software,greenhouse,adyen,242,board-name-match,Adyen
+navan,Navan,software,greenhouse,tripactions,238,board-name-match,Navan
+sezzle,Sezzle,software,greenhouse,sezzle,235,board-name-match,Sezzle
+rubrik,Rubrik,software,greenhouse,rubrik,225,board-name-match,Rubrik Job Board
 arista-networks,Arista Networks,hardware,smartrecruiters,aristanetworks,218,board-name-match,Arista Networks
-sila,Sila,energy,lever,sila,217,ad-text-mentions-company,
+jane-street,Jane Street,finance,greenhouse,janestreet,217,board-name-match,Jane Street
 natera,Natera,health,greenhouse,natera,216,board-name-match,Natera
-jane-street,Jane Street,finance,greenhouse,janestreet,215,board-name-match,Jane Street
-wpp,WPP,consulting,greenhouse,wpp,214,board-name-match,WPP
-form-energy,Form Energy,energy,ashby,formenergy,207,ad-text-mentions-company,
-flexport,Flexport,retail,greenhouse,flexport,207,board-name-match,Flexport
-clickhouse,ClickHouse,data,ashby,clickhouse,204,ad-text-mentions-company,
-riot-games,Riot Games,ai,greenhouse,riotgames,201,board-name-match,Riot Games
+affirm,Affirm,software,greenhouse,affirm,215,board-name-match,Affirm
+sila,Sila,energy,lever,sila,214,ad-text-mentions-company,
+flexport,Flexport,retail,greenhouse,flexport,210,board-name-match,Flexport
+clickhouse,ClickHouse,data,ashby,clickhouse,209,ad-text-mentions-company,
+form-energy,Form Energy,energy,ashby,formenergy,209,ad-text-mentions-company,
+fivetran,Fivetran,data,greenhouse,fivetran,207,board-name-match,Fivetran 
+sierra,Sierra,ai,ashby,sierra,203,ad-text-mentions-company,
+wpp,WPP,consulting,greenhouse,wpp,202,board-name-match,WPP
+riot-games,Riot Games,ai,greenhouse,riotgames,200,board-name-match,Riot Games
 airbnb,Airbnb,software,greenhouse,airbnb,200,board-name-match,Airbnb
 point72,Point72,finance,greenhouse,point72,199,board-name-match,Point72 
-sierra,Sierra,ai,ashby,sierra,196,ad-text-mentions-company,
-rubrik,Rubrik,software,greenhouse,rubrik,195,board-name-match,Rubrik Job Board
-graphcore,Graphcore,ai,greenhouse,graphcore,194,board-name-match,Graphcore
-skydio,Skydio,data,ashby,skydio,189,ad-text-mentions-company,
-block,Block,software,greenhouse,block,187,board-name-match,Block
-fivetran,Fivetran,data,greenhouse,fivetran,186,board-name-match,Fivetran 
-deliveroo,Deliveroo,retail,greenhouse,deliveroo,183,board-name-match,Deliveroo 
-betterhelp,BetterHelp,software,greenhouse,betterhelp,175,board-name-match,BetterHelp
-pinterest,Pinterest,software,greenhouse,pinterest,174,board-name-match,Pinterest
+deliveroo,Deliveroo,retail,greenhouse,deliveroo,195,board-name-match,Deliveroo 
+graphcore,Graphcore,ai,greenhouse,graphcore,185,board-name-match,Graphcore
+skydio,Skydio,data,ashby,skydio,184,ad-text-mentions-company,
+block,Block,software,greenhouse,block,183,board-name-match,Block
+qualtrics,Qualtrics,software,greenhouse,qualtrics,177,board-name-match,Qualtrics
 via,Via,travel,greenhouse,via,174,board-name-match,Via
-scopely,Scopely,ai,greenhouse,scopely,172,board-name-match,Scopely
-notion,Notion,ai,ashby,notion,167,ad-text-mentions-company,
-scale-ai,Scale AI,ai,greenhouse,scaleai,167,board-name-match,Scale AI
-robinhood,Robinhood,software,greenhouse,robinhood,165,board-name-match,Robinhood
-ubiquiti,Ubiquiti,hardware,greenhouse,ubiquiti,163,board-name-match,Ubiquiti
-endava,Endava,consulting,smartrecruiters,endava,160,board-name-match,Endava
-the-new-york-times,The New York Times,media,greenhouse,thenewyorktimes,160,board-name-match,The New York Times
-appian,Appian,regional,greenhouse,appian,155,board-name-match,Appian Corporation 
-wayve,Wayve,ai,ashby,wayve,153,ad-text-mentions-company,
-qualtrics,Qualtrics,software,greenhouse,qualtrics,152,board-name-match,Qualtrics
-lyft,Lyft,software,greenhouse,lyft,148,board-name-match,Lyft
-perplexity,Perplexity,ai,ashby,perplexity,147,ad-text-mentions-company,
-reddit,Reddit,software,greenhouse,reddit,147,board-name-match,Reddit
-stanford-medicine-children-s-health,Stanford Medicine Children's Health,health,smartrecruiters,stanfordmedicinechildrenshealth,145,board-name-match,Stanford Medicine Children's Health
-plaid,Plaid,software,ashby,plaid,142,ad-text-mentions-company,
-figma,Figma,ai,greenhouse,figma,140,board-name-match,Figma
-klaviyo,Klaviyo,data,greenhouse,klaviyo,140,board-name-match,Klaviyo
-epic-games,Epic Games,ai,greenhouse,epicgames,140,board-name-match,Epic Games
-hubspot,HubSpot,software,greenhouse,hubspotjobs,137,board-name-match,HubSpot
-grafana-labs,Grafana Labs,data,greenhouse,grafanalabs,135,board-name-match,Grafana Labs
-tenstorrent,Tenstorrent,ai,greenhouse,tenstorrent,133,board-name-match,Tenstorrent
-box,Box,software,greenhouse,boxinc,132,board-name-match,Box
-anaplan,Anaplan,software,greenhouse,anaplan,132,board-name-match,Anaplan
-elevenlabs,ElevenLabs,ai,ashby,elevenlabs,128,ad-text-mentions-company,
-cerebras,Cerebras,ai,ashby,cerebras,128,ad-text-mentions-company,
-cohere,Cohere,ai,ashby,cohere,127,ad-text-mentions-company,
-ogilvy,Ogilvy,consulting,greenhouse,ogilvy,126,board-name-match,Ogilvy
-kong,Kong,software,ashby,kong,124,ad-text-mentions-company,
+notion,Notion,ai,ashby,notion,172,ad-text-mentions-company,
+scopely,Scopely,ai,greenhouse,scopely,169,board-name-match,Scopely
+pinterest,Pinterest,software,greenhouse,pinterest,169,board-name-match,Pinterest
+ubiquiti,Ubiquiti,hardware,greenhouse,ubiquiti,167,board-name-match,Ubiquiti
+robinhood,Robinhood,software,greenhouse,robinhood,162,board-name-match,Robinhood
+endava,Endava,consulting,smartrecruiters,endava,162,board-name-match,Endava
+appian,Appian,regional,greenhouse,appian,160,board-name-match,Appian Corporation 
+scale-ai,Scale AI,ai,greenhouse,scaleai,157,board-name-match,Scale AI
+perplexity,Perplexity,ai,ashby,perplexity,151,ad-text-mentions-company,
+wayve,Wayve,ai,ashby,wayve,151,ad-text-mentions-company,
+tenstorrent,Tenstorrent,ai,greenhouse,tenstorrent,149,board-name-match,Tenstorrent
+reddit,Reddit,software,greenhouse,reddit,149,board-name-match,Reddit
+figma,Figma,ai,greenhouse,figma,146,board-name-match,Figma
+plaid,Plaid,software,ashby,plaid,145,ad-text-mentions-company,
+lyft,Lyft,software,greenhouse,lyft,144,board-name-match,Lyft
+hubspot,HubSpot,software,greenhouse,hubspotjobs,141,board-name-match,HubSpot
+epic-games,Epic Games,ai,greenhouse,epicgames,138,board-name-match,Epic Games
+stanford-medicine-children-s-health,Stanford Medicine Children's Health,health,smartrecruiters,stanfordmedicinechildrenshealth,137,board-name-match,Stanford Medicine Children's Health
+grafana-labs,Grafana Labs,data,greenhouse,grafanalabs,136,board-name-match,Grafana Labs
+mozilla,Mozilla,software,greenhouse,mozilla,136,board-name-match,Mozilla
+cerebras,Cerebras,ai,ashby,cerebras,135,ad-text-mentions-company,
+box,Box,software,greenhouse,boxinc,131,board-name-match,Box
+anaplan,Anaplan,software,greenhouse,anaplan,130,board-name-match,Anaplan
+nice,NICE,software,greenhouse,nice,126,board-name-match,NICE
+kong,Kong,software,ashby,kong,125,ad-text-mentions-company,
 netskope,Netskope,software,greenhouse,netskope,124,board-name-match,Netskope
-lila-sciences,Lila Sciences,ai,greenhouse,lilasciences,121,board-name-match,Lila Sciences
-mozilla,Mozilla,software,greenhouse,mozilla,120,board-name-match,Mozilla
-nice,NICE,software,greenhouse,nice,120,board-name-match,NICE
-planet-labs,Planet Labs,data,greenhouse,planetlabs,118,board-name-match,Planet
-ncc-group,NCC Group,software,smartrecruiters,ncc,116,board-name-match,NCC
-etched,Etched,ai,ashby,etched,115,ad-text-mentions-company,
-freshworks,Freshworks,software,smartrecruiters,freshworks,115,board-name-match,Freshworks
-cato-networks,Cato Networks,software,greenhouse,catonetworks,115,board-name-match,Cato Networks
-asana,Asana,software,greenhouse,asana,114,board-name-match,Asana
-decagon,Decagon,ai,ashby,decagon,112,ad-text-mentions-company,
-chainguard,Chainguard,software,greenhouse,chainguard,112,board-name-match,Chainguard
-ripple,Ripple,software,greenhouse,ripple,112,board-name-match,Ripple 
-cognition,Cognition,ai,ashby,cognition,111,ad-text-mentions-company,
-redwood-materials,Redwood Materials,energy,greenhouse,redwoodmaterials,111,board-name-match,Redwood Materials
-twilio,Twilio,software,greenhouse,twilio,110,board-name-match,Twilio
-whoop,Whoop,ai,ashby,whoop,108,ad-text-mentions-company,
-justworks,Justworks,software,greenhouse,justworks,108,board-name-match,Justworks
-wiz,Wiz,software,greenhouse,wizinc,105,board-name-match,"Wiz, Inc."
-nubank,Nubank,software,ashby,nubank,105,ad-text-mentions-company,
-mercor,Mercor,ai,ashby,mercor,104,ad-text-mentions-company,
-figure-ai,Figure AI,ai,greenhouse,figureai,104,board-name-match,Figure
-baseten,Baseten,ai,ashby,baseten,103,ad-text-mentions-company,
-xero,Xero,software,ashby,xero,103,ad-text-mentions-company,
-langchain,LangChain,ai,ashby,langchain,102,ad-text-mentions-company,
-nuro,Nuro,ai,greenhouse,nuro,101,board-name-match,Nuro
-keeper-security,Keeper Security,software,greenhouse,keepersecurity,101,board-name-match,Keeper Security
-payoneer,Payoneer,software,greenhouse,payoneer,101,board-name-match,Payoneer
-trace3,Trace3,consulting,greenhouse,trace3,99,board-name-match,Trace3
-cursor,Cursor,ai,ashby,cursor,96,ad-text-mentions-company,
-hasbro,Hasbro,ai,greenhouse,hasbro,96,board-name-match,Hasbro
-roku,Roku,ai,greenhouse,roku,96,board-name-match,Roku
-lambda,Lambda,ai,ashby,lambda,94,ad-text-mentions-company,
-uber-freight,Uber Freight,retail,greenhouse,uberfreight,92,board-name-match,Uber Freight
-c3-ai,C3 AI,data,greenhouse,c3iot,89,board-name-match,C3 AI
-socure,Socure,data,ashby,socure,89,ad-text-mentions-company,
-zoominfo,ZoomInfo,data,greenhouse,zoominfo,88,board-name-match,ZoomInfo Technologies LLC
-spotify,Spotify,ai,lever,spotify,88,ad-text-mentions-company,
-jump-trading,Jump Trading,finance,greenhouse,jumptrading,88,board-name-match,Jump Trading
-vercel,Vercel,ai,greenhouse,vercel,87,board-name-match,Vercel
-abnormal-security,Abnormal Security,software,greenhouse,abnormalsecurity,87,board-name-match,Abnormal
-pointclickcare,PointClickCare,health,lever,pointclickcare,87,ad-text-mentions-company,
-waabi,Waabi,ai,lever,waabi,86,ad-text-mentions-company,
-five9,Five9,software,greenhouse,five9,85,board-name-match,Five9
-colliers,Colliers,travel,smartrecruiters,colliers,85,board-name-match,Colliers
-cresta,Cresta,ai,greenhouse,cresta,84,board-name-match,Cresta
-onetrust,OneTrust,software,greenhouse,onetrust,84,board-name-match,OneTrust
-instacart,Instacart,software,greenhouse,instacart,83,board-name-match,Instacart
-sigma-computing,Sigma Computing,data,greenhouse,sigmacomputing,82,board-name-match,Sigma Computing
-apptronik,Apptronik,ai,greenhouse,apptronik,82,board-name-match,Apptronik
-worldquant,WorldQuant,finance,greenhouse,worldquant,81,board-name-match,WorldQuant
-cribl,Cribl,data,greenhouse,cribl,79,board-name-match,Cribl
-vultr,Vultr,software,ashby,vultr,79,ad-text-mentions-company,
-gusto,Gusto,software,greenhouse,gusto,79,board-name-match,"Gusto, Inc."
-ashby,Ashby,software,ashby,ashby,78,ad-text-mentions-company,
-sophos,Sophos,software,ashby,sophos,78,ad-text-mentions-company,
-supabase,Supabase,data,ashby,supabase,77,ad-text-mentions-company,
-vanta,Vanta,software,ashby,vanta,77,ad-text-mentions-company,
-carta,Carta,software,greenhouse,carta,77,board-name-match,Carta
-motional,Motional,ai,greenhouse,motional,76,board-name-match,Motional
+cohere,Cohere,ai,ashby,cohere,122,ad-text-mentions-company,
+freshworks,Freshworks,software,smartrecruiters,freshworks,121,board-name-match,Freshworks
+klaviyo,Klaviyo,data,greenhouse,klaviyo,120,board-name-match,Klaviyo
+cato-networks,Cato Networks,software,greenhouse,catonetworks,119,board-name-match,Cato Networks
+etched,Etched,ai,ashby,etched,118,ad-text-mentions-company,
+the-new-york-times,The New York Times,media,greenhouse,thenewyorktimes,118,board-name-match,The New York Times
+elevenlabs,ElevenLabs,ai,ashby,elevenlabs,117,ad-text-mentions-company,
+ncc-group,NCC Group,software,smartrecruiters,ncc,117,board-name-match,NCC
+xero,Xero,software,ashby,xero,116,ad-text-mentions-company,
+twilio,Twilio,software,greenhouse,twilio,115,board-name-match,Twilio
+cognition,Cognition,ai,ashby,cognition,114,ad-text-mentions-company,
+lila-sciences,Lila Sciences,ai,greenhouse,lilasciences,113,board-name-match,Lila Sciences
+ripple,Ripple,software,greenhouse,ripple,111,board-name-match,Ripple 
+asana,Asana,software,greenhouse,asana,110,board-name-match,Asana
+baseten,Baseten,ai,ashby,baseten,109,ad-text-mentions-company,
+whoop,Whoop,ai,ashby,whoop,109,ad-text-mentions-company,
+mercor,Mercor,ai,ashby,mercor,108,ad-text-mentions-company,
+nuro,Nuro,ai,greenhouse,nuro,108,board-name-match,Nuro
+chainguard,Chainguard,software,greenhouse,chainguard,108,board-name-match,Chainguard
+nubank,Nubank,software,ashby,nubank,107,ad-text-mentions-company,
+decagon,Decagon,ai,ashby,decagon,105,ad-text-mentions-company,
+planet-labs,Planet Labs,data,greenhouse,planetlabs,105,board-name-match,Planet
+wiz,Wiz,software,greenhouse,wizinc,104,board-name-match,"Wiz, Inc."
+justworks,Justworks,software,greenhouse,justworks,103,board-name-match,Justworks
+ogilvy,Ogilvy,consulting,greenhouse,ogilvy,103,board-name-match,Ogilvy
+langchain,LangChain,ai,ashby,langchain,101,ad-text-mentions-company,
+figure-ai,Figure AI,ai,greenhouse,figureai,101,board-name-match,Figure
+betterhelp,BetterHelp,software,greenhouse,betterhelp,101,board-name-match,BetterHelp
+lambda,Lambda,ai,ashby,lambda,100,ad-text-mentions-company,
+payoneer,Payoneer,software,greenhouse,payoneer,100,board-name-match,Payoneer
+instacart,Instacart,software,greenhouse,instacart,98,board-name-match,Instacart
+hasbro,Hasbro,ai,greenhouse,hasbro,97,board-name-match,Hasbro
+keeper-security,Keeper Security,software,greenhouse,keepersecurity,93,board-name-match,Keeper Security
+trace3,Trace3,consulting,greenhouse,trace3,93,board-name-match,Trace3
+zoominfo,ZoomInfo,data,greenhouse,zoominfo,92,board-name-match,ZoomInfo Technologies LLC
+spotify,Spotify,ai,lever,spotify,92,ad-text-mentions-company,
+roku,Roku,ai,greenhouse,roku,91,board-name-match,Roku
+redwood-materials,Redwood Materials,energy,greenhouse,redwoodmaterials,90,board-name-match,Redwood Materials
+lightmatter,Lightmatter,ai,greenhouse,lightmatter,88,board-name-match,Lightmatter
+pointclickcare,PointClickCare,health,lever,pointclickcare,88,ad-text-mentions-company,
+cursor,Cursor,ai,ashby,cursor,87,ad-text-mentions-company,
+apptronik,Apptronik,ai,greenhouse,apptronik,87,board-name-match,Apptronik
+five9,Five9,software,greenhouse,five9,87,board-name-match,Five9
+vercel,Vercel,ai,greenhouse,vercel,86,board-name-match,Vercel
+abnormal-security,Abnormal Security,software,greenhouse,abnormalsecurity,86,board-name-match,Abnormal
+illumio,Illumio,software,ashby,illumio,86,ad-text-mentions-company,
+jump-trading,Jump Trading,finance,greenhouse,jumptrading,86,board-name-match,Jump Trading
+cribl,Cribl,data,greenhouse,cribl,85,board-name-match,Cribl
+sigma-computing,Sigma Computing,data,greenhouse,sigmacomputing,85,board-name-match,Sigma Computing
+waabi,Waabi,ai,lever,waabi,85,ad-text-mentions-company,
+gusto,Gusto,software,greenhouse,gusto,85,board-name-match,"Gusto, Inc."
+c3-ai,C3 AI,data,greenhouse,c3iot,84,board-name-match,C3 AI
+socure,Socure,data,ashby,socure,84,ad-text-mentions-company,
+tailscale,Tailscale,software,greenhouse,tailscale,84,board-name-match,Tailscale
+vultr,Vultr,software,ashby,vultr,83,ad-text-mentions-company,
+kairos-power,Kairos Power,energy,greenhouse,kairospower,83,board-name-match,Kairos Power
+together-ai,Together AI,ai,greenhouse,togetherai,81,board-name-match,Together AI
+motional,Motional,ai,greenhouse,motional,81,board-name-match,Motional
+carta,Carta,software,greenhouse,carta,81,board-name-match,Carta
+supabase,Supabase,data,ashby,supabase,80,ad-text-mentions-company,
+ashby,Ashby,software,ashby,ashby,80,ad-text-mentions-company,
+1password,1Password,software,ashby,1password,80,ad-text-mentions-company,
+cresta,Cresta,ai,greenhouse,cresta,79,board-name-match,Cresta
+jfrog,JFrog,software,greenhouse,jfrog,79,board-name-match,JFrog
+worldquant,WorldQuant,finance,greenhouse,worldquant,79,board-name-match,WorldQuant
+neuralink,Neuralink,ai,greenhouse,neuralink,78,board-name-match,Neuralink
+smartsheet,Smartsheet,software,greenhouse,smartsheet,78,board-name-match,Smartsheet
+chime,Chime,software,greenhouse,chime,78,board-name-match,"Chime Financial, Inc"
+onetrust,OneTrust,software,greenhouse,onetrust,77,board-name-match,OneTrust
+upstart,Upstart,software,greenhouse,upstart,77,board-name-match,Upstart
 nintendo,Nintendo,ai,greenhouse,nintendo,76,board-name-match,Nintendo 
-jfrog,JFrog,software,greenhouse,jfrog,76,board-name-match,JFrog
-1password,1Password,software,ashby,1password,76,ad-text-mentions-company,
-delinea,Delinea,software,ashby,delinea,76,ad-text-mentions-company,
-tailscale,Tailscale,software,greenhouse,tailscale,76,board-name-match,Tailscale
-extreme-networks,Extreme Networks,hardware,lever,extremenetworks,76,ad-text-mentions-company,
-agility-robotics,Agility Robotics,ai,greenhouse,agilityrobotics,75,board-name-match,Agility Robotics
-chime,Chime,software,greenhouse,chime,75,board-name-match,"Chime Financial, Inc"
-upstart,Upstart,software,greenhouse,upstart,75,board-name-match,Upstart
-neuralink,Neuralink,ai,greenhouse,neuralink,74,board-name-match,Neuralink
-mercury,Mercury,software,greenhouse,mercury,74,board-name-match,Mercury
-sweetgreen,Sweetgreen,retail,greenhouse,sweetgreen,74,board-name-match, sweetgreen
-industrious,Industrious,travel,ashby,industrious,74,ad-text-mentions-company,
-together-ai,Together AI,ai,greenhouse,togetherai,73,board-name-match,Together AI
-smartsheet,Smartsheet,software,greenhouse,smartsheet,73,board-name-match,Smartsheet
-handshake,Handshake,ai,ashby,handshake,72,ad-text-mentions-company,
-schonfeld,Schonfeld,finance,greenhouse,schonfeld,72,board-name-match,Schonfeld 
-lightmatter,Lightmatter,ai,greenhouse,lightmatter,71,board-name-match,Lightmatter
+uber-freight,Uber Freight,retail,greenhouse,uberfreight,76,board-name-match,Uber Freight
+colliers,Colliers,travel,smartrecruiters,colliers,74,board-name-match,Colliers
+delinea,Delinea,software,ashby,delinea,72,ad-text-mentions-company,
+sweetgreen,Sweetgreen,retail,greenhouse,sweetgreen,72,board-name-match, sweetgreen
+faire,Faire,retail,greenhouse,faire,72,board-name-match,Faire
+industrious,Industrious,travel,ashby,industrious,72,ad-text-mentions-company,
 factory,Factory,ai,ashby,factory,71,ad-text-mentions-company,
-faire,Faire,retail,greenhouse,faire,71,board-name-match,Faire
-ping-identity,Ping Identity,software,greenhouse,pingidentity,70,board-name-match,Ping Identity
-illumio,Illumio,software,ashby,illumio,70,ad-text-mentions-company,
-kairos-power,Kairos Power,energy,greenhouse,kairospower,70,board-name-match,Kairos Power
+agility-robotics,Agility Robotics,ai,greenhouse,agilityrobotics,71,board-name-match,Agility Robotics
+extreme-networks,Extreme Networks,hardware,lever,extremenetworks,71,ad-text-mentions-company,
+handshake,Handshake,ai,ashby,handshake,70,ad-text-mentions-company,
+mercury,Mercury,software,greenhouse,mercury,70,board-name-match,Mercury
+ping-identity,Ping Identity,software,greenhouse,pingidentity,69,board-name-match,Ping Identity
 northwestern-mutual,Northwestern Mutual,finance,smartrecruiters,northwesternmutual,69,board-name-match,Northwestern Mutual
-zocdoc,Zocdoc,software,greenhouse,zocdoc,68,board-name-match,Zocdoc
-man-group,Man Group,finance,greenhouse,mangroup,68,board-name-match,Man Group
-wrike,Wrike,software,greenhouse,wrike,67,board-name-match,Wrike
+harness,Harness,software,greenhouse,harnessinc,68,board-name-match,Harness 
+sophos,Sophos,software,ashby,sophos,68,ad-text-mentions-company,
 tanium,Tanium,software,greenhouse,tanium,66,board-name-match,Tanium
-harness,Harness,software,greenhouse,harnessinc,65,board-name-match,Harness 
+man-group,Man Group,finance,greenhouse,mangroup,66,board-name-match,Man Group
+schonfeld,Schonfeld,finance,greenhouse,schonfeld,66,board-name-match,Schonfeld 
+zocdoc,Zocdoc,software,greenhouse,zocdoc,65,board-name-match,Zocdoc
 helion,Helion,energy,ashby,helion,65,ad-text-mentions-company,
-neo4j,Neo4j,ai,greenhouse,neo4j,63,board-name-match,Neo4j
-shipmonk,ShipMonk,retail,greenhouse,shipmonk,63,board-name-match,ShipMonk
-suno,Suno,ai,ashby,suno,62,ad-text-mentions-company,
-geotab,Geotab,software,greenhouse,geotab,62,board-name-match,Geotab
-voleon,Voleon,finance,ashby,voleon,61,ad-text-mentions-company,
+voleon,Voleon,finance,ashby,voleon,62,ad-text-mentions-company,
+suno,Suno,ai,ashby,suno,61,ad-text-mentions-company,
+benchling,Benchling,ai,ashby,benchling,61,ad-text-mentions-company,
+vanta,Vanta,software,ashby,vanta,61,ad-text-mentions-company,
+twist-bioscience,Twist Bioscience,health,greenhouse,twistbioscience,61,board-name-match,Twist Bioscience
+shipmonk,ShipMonk,retail,greenhouse,shipmonk,61,board-name-match,ShipMonk
 lovable,Lovable,ai,greenhouse,lovable,60,board-name-match,Lovable
-prisma-labs,Prisma Labs,ai,recruitee,prisma,60,board-name-match,Prisma
-benchling,Benchling,ai,ashby,benchling,59,ad-text-mentions-company,
-monzo,Monzo,software,greenhouse,monzo,59,board-name-match,Monzo
-bitgo,BitGo,software,greenhouse,bitgo,59,board-name-match,BitGo
-thinking-machines-lab,Thinking Machines Lab,ai,ashby,thinkingmachines,58,ad-text-mentions-company,
-telus-digital,TELUS Digital,ai,ashby,telus-digital,58,ad-text-mentions-company,
-duolingo,Duolingo,ai,greenhouse,duolingo,58,board-name-match,Duolingo
-recorded-future,Recorded Future,software,greenhouse,recordedfuture,56,board-name-match,Recorded Future
-ziprecruiter,ZipRecruiter,software,greenhouse,ziprecruiter,55,board-name-match,ZipRecruiter
-instructure,Instructure,software,ashby,instructure,54,ad-text-mentions-company,
-commvault,Commvault,software,greenhouse,commvault,54,board-name-match,Commvault
-modal,Modal,ai,ashby,modal,53,ad-text-mentions-company,
-oklo,Oklo,energy,greenhouse,oklo,53,board-name-match,Oklo
+neo4j,Neo4j,ai,greenhouse,neo4j,60,board-name-match,Neo4j
+thinking-machines-lab,Thinking Machines Lab,ai,ashby,thinkingmachines,59,ad-text-mentions-company,
+prisma-labs,Prisma Labs,ai,recruitee,prisma,59,board-name-match,Prisma
+commvault,Commvault,software,greenhouse,commvault,59,board-name-match,Commvault
+recorded-future,Recorded Future,software,greenhouse,recordedfuture,58,board-name-match,Recorded Future
+wrike,Wrike,software,greenhouse,wrike,57,board-name-match,Wrike
+dragos,Dragos,software,greenhouse,dragos,57,board-name-match,Dragos
+sofi,SoFi,software,greenhouse,sofi,57,board-name-match,SoFi
+bitgo,BitGo,software,greenhouse,bitgo,57,board-name-match,BitGo
+geotab,Geotab,software,greenhouse,geotab,55,board-name-match,Geotab
+ziprecruiter,ZipRecruiter,software,greenhouse,ziprecruiter,54,board-name-match,ZipRecruiter
+oklo,Oklo,energy,greenhouse,oklo,54,board-name-match,Oklo
+telus-digital,TELUS Digital,ai,ashby,telus-digital,53,ad-text-mentions-company,
+duolingo,Duolingo,ai,greenhouse,duolingo,53,board-name-match,Duolingo
+monzo,Monzo,software,greenhouse,monzo,53,board-name-match,Monzo
+modal,Modal,ai,ashby,modal,52,ad-text-mentions-company,
+kodiak-robotics,Kodiak Robotics,ai,greenhouse,kodiak,52,board-name-match,Kodiak
 clover-health,Clover Health,software,greenhouse,cloverhealth,52,board-name-match,Clover Health
-coupa,Coupa,software,lever,coupa,52,ad-text-mentions-company,
-twist-bioscience,Twist Bioscience,health,greenhouse,twistbioscience,52,board-name-match,Twist Bioscience
-navitas,Navitas,hardware,smartrecruiters,navitas,52,board-name-match,Navitas
-twitch,Twitch,media,greenhouse,twitch,52,board-name-match,Twitch
-docker,Docker,software,ashby,docker,51,ad-text-mentions-company,
-contentful,Contentful,software,greenhouse,contentful,51,board-name-match,Contentful
-huntress,Huntress,software,greenhouse,huntress,51,board-name-match,Huntress Labs
-sofi,SoFi,software,greenhouse,sofi,51,board-name-match,SoFi
-kodiak-robotics,Kodiak Robotics,ai,greenhouse,kodiak,50,board-name-match,Kodiak
-netgear,Netgear,hardware,ashby,netgear,50,ad-text-mentions-company,
-kayak,Kayak,travel,ashby,kayak,49,ad-text-mentions-company,
-quantexa,Quantexa,data,ashby,quantexa,48,ad-text-mentions-company,
-physical-intelligence,Physical Intelligence,ai,ashby,physicalintelligence,48,ad-text-mentions-company,
-fastly,Fastly,software,greenhouse,fastly,48,board-name-match,Fastly
-torc-robotics,Torc Robotics,ai,greenhouse,torcrobotics,47,board-name-match,Torc Robotics
-clickup,ClickUp,software,ashby,clickup,47,ad-text-mentions-company,
-conga,Conga,software,greenhouse,conga,47,board-name-match,Conga
-coalition,Coalition,software,greenhouse,coalition,47,board-name-match,"Coalition, Inc."
-reflection-ai,Reflection AI,ai,ashby,reflectionai,46,ad-text-mentions-company,
-writer,Writer,ai,ashby,writer,46,ad-text-mentions-company,
-pagerduty,PagerDuty,data,greenhouse,pagerduty,46,board-name-match,PagerDuty
-amplitude,Amplitude,data,ashby,amplitude,46,ad-text-mentions-company,
-dragos,Dragos,software,greenhouse,dragos,46,board-name-match,Dragos
+instructure,Instructure,software,ashby,instructure,52,ad-text-mentions-company,
+netgear,Netgear,hardware,ashby,netgear,52,ad-text-mentions-company,
+quantexa,Quantexa,data,ashby,quantexa,51,ad-text-mentions-company,
+torc-robotics,Torc Robotics,ai,greenhouse,torcrobotics,51,board-name-match,Torc Robotics
+fastly,Fastly,software,greenhouse,fastly,51,board-name-match,Fastly
+twitch,Twitch,media,greenhouse,twitch,51,board-name-match,Twitch
+pagerduty,PagerDuty,data,greenhouse,pagerduty,49,board-name-match,PagerDuty
+dropbox,Dropbox,software,greenhouse,dropbox,49,board-name-match,Dropbox
+contentful,Contentful,software,greenhouse,contentful,49,board-name-match,Contentful
+clickup,ClickUp,software,ashby,clickup,49,ad-text-mentions-company,
+navitas,Navitas,hardware,smartrecruiters,navitas,49,board-name-match,Navitas
+docker,Docker,software,ashby,docker,48,ad-text-mentions-company,
+surveymonkey,SurveyMonkey,software,ashby,surveymonkey,48,ad-text-mentions-company,
+amplitude,Amplitude,data,ashby,amplitude,47,ad-text-mentions-company,
+riskified,Riskified,software,greenhouse,riskified,47,board-name-match,Riskified
+cargurus,CarGurus,regional,greenhouse,cargurus,47,board-name-match,CarGurus
+apollo-io,Apollo.io,ai,greenhouse,apolloio,46,board-name-match,Apollo.io
 apollo,Apollo,finance,ashby,apollo,46,ad-text-mentions-company,
-virtu,Virtu,finance,greenhouse,virtu,46,board-name-match,Virtu Financial
-apollo-io,Apollo.io,ai,greenhouse,apolloio,45,board-name-match,Apollo.io
-turing,Turing,ai,greenhouse,turing,45,board-name-match,Turing
-flow-traders,Flow Traders,finance,greenhouse,flowtraders,44,board-name-match,Flow Traders
-aqr,AQR,finance,greenhouse,aqr,44,board-name-match,AQR
+writer,Writer,ai,ashby,writer,45,ad-text-mentions-company,
+physical-intelligence,Physical Intelligence,ai,ashby,physicalintelligence,45,ad-text-mentions-company,
+peloton,Peloton,ai,greenhouse,peloton,45,board-name-match,Peloton
+huntress,Huntress,software,greenhouse,huntress,45,board-name-match,Huntress Labs
+akqa,AKQA,consulting,greenhouse,akqa,45,board-name-match,AKQA
+conga,Conga,software,greenhouse,conga,44,board-name-match,Conga
+new-relic,New Relic,data,greenhouse,newrelic,43,board-name-match,New Relic
 optimizely,Optimizely,data,smartrecruiters,optimizely,43,board-name-match,Optimizely
-included-health,Included Health,software,lever,includedhealth,43,ad-text-mentions-company,
-riskified,Riskified,software,greenhouse,riskified,43,board-name-match,Riskified
-cargurus,CarGurus,regional,greenhouse,cargurus,43,board-name-match,CarGurus
-matx,MatX,ai,ashby,matx,42,ad-text-mentions-company,
-snorkel-ai,Snorkel AI,ai,greenhouse,snorkelai,42,board-name-match,Snorkel AI
-new-relic,New Relic,data,greenhouse,newrelic,42,board-name-match,New Relic
-blacksky,BlackSky,data,greenhouse,blacksky,42,board-name-match,BlackSky
+singlestore,SingleStore,data,greenhouse,singlestore,43,board-name-match,SingleStore
+lemonade,Lemonade,software,ashby,lemonade,43,ad-text-mentions-company,
+flow-traders,Flow Traders,finance,greenhouse,flowtraders,43,board-name-match,Flow Traders
+aqr,AQR,finance,greenhouse,aqr,43,board-name-match,AQR
+inovalon,Inovalon,health,ashby,inovalon,43,ad-text-mentions-company,
+mapbox,Mapbox,data,ashby,mapbox,42,ad-text-mentions-company,
+included-health,Included Health,software,lever,includedhealth,42,ad-text-mentions-company,
+zuora,Zuora,software,greenhouse,zuora,42,board-name-match,Zuora
+virtu,Virtu,finance,greenhouse,virtu,42,board-name-match,Virtu Financial
+chargepoint,ChargePoint,energy,greenhouse,chargepoint,42,board-name-match,ChargePoint
 acceldata,Acceldata,data,lever,acceldata,41,ad-text-mentions-company,
-dropbox,Dropbox,software,greenhouse,dropbox,41,board-name-match,Dropbox
-velo3d,Velo3D,regional,lever,velo3d,41,ad-text-mentions-company,
+mixpanel,Mixpanel,data,greenhouse,mixpanel,41,board-name-match,Mixpanel
+thumbtack,Thumbtack,software,ashby,thumbtack,41,ad-text-mentions-company,
+coalition,Coalition,software,greenhouse,coalition,41,board-name-match,"Coalition, Inc."
+pacific-fusion,Pacific Fusion,energy,greenhouse,pacificfusion,41,board-name-match,Pacific Fusion
+snorkel-ai,Snorkel AI,ai,greenhouse,snorkelai,40,board-name-match,Snorkel AI
 epirus,Epirus,ai,greenhouse,epirus,40,board-name-match,Epirus
-thumbtack,Thumbtack,software,ashby,thumbtack,40,ad-text-mentions-company,
-zuora,Zuora,software,greenhouse,zuora,40,board-name-match,Zuora
-lemonade,Lemonade,software,ashby,lemonade,40,ad-text-mentions-company,
-isomorphic-labs,Isomorphic Labs,ai,greenhouse,isomorphiclabs,39,board-name-match,Isomorphic Labs
-mixpanel,Mixpanel,data,greenhouse,mixpanel,39,board-name-match,Mixpanel
-singlestore,SingleStore,data,greenhouse,singlestore,39,board-name-match,SingleStore
-coursera,Coursera,ai,greenhouse,coursera,39,board-name-match,Coursera
-snyk,Snyk,software,ashby,snyk,39,ad-text-mentions-company,
-chargepoint,ChargePoint,energy,greenhouse,chargepoint,39,board-name-match,ChargePoint
-appfolio,AppFolio,travel,ashby,appfolio,39,ad-text-mentions-company,
-datacamp,DataCamp,media,greenhouse,datacamp,39,board-name-match,DataCamp
-d-matrix,d-Matrix,ai,ashby,d-matrix,38,ad-text-mentions-company,
-roboflow,Roboflow,ai,ashby,roboflow,38,ad-text-mentions-company,
-peloton,Peloton,ai,greenhouse,peloton,38,board-name-match,Peloton
-beyondtrust,BeyondTrust,software,greenhouse,beyondtrust,38,board-name-match,BeyondTrust
-inovalon,Inovalon,health,ashby,inovalon,38,ad-text-mentions-company,
+beyondtrust,BeyondTrust,software,greenhouse,beyondtrust,40,board-name-match,BeyondTrust
+kayak,Kayak,travel,ashby,kayak,40,ad-text-mentions-company,
+appfolio,AppFolio,travel,ashby,appfolio,40,ad-text-mentions-company,
+matx,MatX,ai,ashby,matx,39,ad-text-mentions-company,
+roboflow,Roboflow,ai,ashby,roboflow,39,ad-text-mentions-company,
+blacksky,BlackSky,data,greenhouse,blacksky,39,board-name-match,BlackSky
+render,Render,software,ashby,render,39,ad-text-mentions-company,
+bitwarden,Bitwarden,software,greenhouse,bitwarden,39,board-name-match,Bitwarden
+abcellera,AbCellera,health,greenhouse,abcellera,39,board-name-match,AbCellera
+velo3d,Velo3D,regional,lever,velo3d,39,ad-text-mentions-company,
+reflection-ai,Reflection AI,ai,ashby,reflectionai,38,ad-text-mentions-company,
+isomorphic-labs,Isomorphic Labs,ai,greenhouse,isomorphiclabs,38,board-name-match,Isomorphic Labs
+bill-com,Bill.com,software,greenhouse,billcom,38,board-name-match,BILL
+oportun,Oportun,software,greenhouse,oportun,38,board-name-match,Oportun
+verve,Verve,health,greenhouse,verve,38,board-name-match,Verve
+seatgeek,SeatGeek,media,greenhouse,seatgeek,38,board-name-match,SeatGeek
+datacamp,DataCamp,media,greenhouse,datacamp,38,board-name-match,DataCamp
+d-matrix,d-Matrix,ai,ashby,d-matrix,37,ad-text-mentions-company,
+replit,Replit,ai,ashby,replit,37,ad-text-mentions-company,
+snyk,Snyk,software,ashby,snyk,37,ad-text-mentions-company,
+maven-clinic,Maven Clinic,software,greenhouse,mavenclinic,37,board-name-match,Maven Clinic
+coupa,Coupa,software,lever,coupa,37,ad-text-mentions-company,
+cyberhaven,Cyberhaven,software,ashby,cyberhaven,37,ad-text-mentions-company,
 angellist,AngelList,software,lever,angellist,37,ad-text-mentions-company,
-stockx,StockX,retail,greenhouse,stockx,37,board-name-match,StockX
-seatgeek,SeatGeek,media,greenhouse,seatgeek,37,board-name-match,SeatGeek
+fireblocks,Fireblocks,software,greenhouse,fireblocks,37,board-name-match,Fireblocks
+dust,Dust,ai,ashby,dust,36,ad-text-mentions-company,
 surge-ai,Surge AI,ai,ashby,surge-ai,36,ad-text-mentions-company,
-render,Render,software,ashby,render,36,ad-text-mentions-company,
-bill-com,Bill.com,software,greenhouse,billcom,36,board-name-match,BILL
-abcellera,AbCellera,health,greenhouse,abcellera,36,board-name-match,AbCellera
-replit,Replit,ai,ashby,replit,35,ad-text-mentions-company,
-cyberhaven,Cyberhaven,software,ashby,cyberhaven,35,ad-text-mentions-company,
-thoughtworks,Thoughtworks,consulting,greenhouse,thoughtworks,35,board-name-match,Thoughtworks
-akqa,AKQA,consulting,greenhouse,akqa,35,board-name-match,AKQA
-pacific-fusion,Pacific Fusion,energy,greenhouse,pacificfusion,35,board-name-match,Pacific Fusion
-canva,Canva,ai,smartrecruiters,canva,34,board-name-match,Canva
+starburst,Starburst,data,greenhouse,starburst,36,board-name-match,Starburst
+coursera,Coursera,ai,greenhouse,coursera,36,board-name-match,Coursera
+launchdarkly,LaunchDarkly,data,greenhouse,launchdarkly,35,board-name-match,LaunchDarkly
+backblaze,Backblaze,software,greenhouse,backblaze,35,board-name-match,Backblaze External Website
+sysdig,Sysdig,software,lever,sysdig,35,ad-text-mentions-company,
+vannevar-labs,Vannevar Labs,regional,greenhouse,vannevarlabs,35,board-name-match,Vannevar
+abridge,Abridge,ai,ashby,abridge,34,ad-text-mentions-company,
 prolific,Prolific,ai,greenhouse,prolific,34,board-name-match,Prolific 
-encord,Encord,ai,ashby,encord,34,ad-text-mentions-company,
+alloy,Alloy,data,greenhouse,alloy,34,board-name-match,Alloy
 may-mobility,May Mobility,ai,greenhouse,maymobility,34,board-name-match,May Mobility
-backblaze,Backblaze,software,greenhouse,backblaze,34,board-name-match,Backblaze External Website
-surveymonkey,SurveyMonkey,software,ashby,surveymonkey,34,ad-text-mentions-company,
-sysdig,Sysdig,software,lever,sysdig,34,ad-text-mentions-company,
-bitwarden,Bitwarden,software,greenhouse,bitwarden,34,board-name-match,Bitwarden
-verve,Verve,health,greenhouse,verve,34,board-name-match,Verve
-axios,Axios,media,greenhouse,axios,34,board-name-match,Axios
-dust,Dust,ai,ashby,dust,33,ad-text-mentions-company,
-starburst,Starburst,data,greenhouse,starburst,33,board-name-match,Starburst
-launchdarkly,LaunchDarkly,data,greenhouse,launchdarkly,33,board-name-match,LaunchDarkly
-alloy,Alloy,data,greenhouse,alloy,33,board-name-match,Alloy
-mapbox,Mapbox,data,ashby,mapbox,33,ad-text-mentions-company,
-maven-clinic,Maven Clinic,software,greenhouse,mavenclinic,33,board-name-match,Maven Clinic
-amplify,Amplify,software,ashby,amplify,33,ad-text-mentions-company,
-vannevar-labs,Vannevar Labs,regional,greenhouse,vannevarlabs,33,board-name-match,Vannevar
-take-two-interactive,Take-Two Interactive,ai,greenhouse,taketwo,32,board-name-match,"Take-Two Interactive Software, Inc."
-culture-amp,Culture Amp,software,greenhouse,cultureamp,32,board-name-match,Culture Amp
-akuna-capital,Akuna Capital,finance,greenhouse,akunacapital,32,board-name-match,Akuna Capital
+thought-machine,Thought Machine,software,ashby,thought-machine,34,ad-text-mentions-company,
+akuna-capital,Akuna Capital,finance,greenhouse,akunacapital,33,board-name-match,Akuna Capital
+encord,Encord,ai,ashby,encord,32,ad-text-mentions-company,
+kabam,Kabam,ai,lever,kabam,32,ad-text-mentions-company,
+docebo,Docebo,software,ashby,docebo,32,ad-text-mentions-company,
 beam-therapeutics,Beam Therapeutics,health,greenhouse,beamtherapeutics,32,board-name-match,Beam Therapeutics
 hawkeye-360,HawkEye 360,regional,greenhouse,hawkeye360,32,board-name-match,HawkEye 360
-periodic-labs,Periodic Labs,ai,ashby,periodic-labs,31,ad-text-mentions-company,
+turing,Turing,ai,greenhouse,turing,31,board-name-match,Turing
+take-two-interactive,Take-Two Interactive,ai,greenhouse,taketwo,31,board-name-match,"Take-Two Interactive Software, Inc."
 sanity,Sanity,software,ashby,sanity,31,ad-text-mentions-company,
 d2l,D2L,software,greenhouse,d2l,31,board-name-match,D2L
-thought-machine,Thought Machine,software,ashby,thought-machine,31,ad-text-mentions-company,
-framestore,Framestore,media,recruitee,framestore,31,board-name-match,Framestore
 speak,Speak,ai,ashby,speak,30,ad-text-mentions-company,
-supercell,Supercell,ai,ashby,supercell,30,ad-text-mentions-company,
-oportun,Oportun,software,greenhouse,oportun,30,board-name-match,Oportun
-commercetools,commercetools,retail,greenhouse,commercetools,30,board-name-match,commercetools
-synthesia,Synthesia,ai,ashby,synthesia,29,ad-text-mentions-company,
-spire-global,Spire Global,data,greenhouse,spire,29,board-name-match,Spire
-toptal,Toptal,software,lever,toptal,29,ad-text-mentions-company,
-docebo,Docebo,software,ashby,docebo,29,ad-text-mentions-company,
-nerdwallet,NerdWallet,software,ashby,nerdwallet,29,ad-text-mentions-company,
-iambic-therapeutics,Iambic Therapeutics,health,ashby,iambic-therapeutics,29,ad-text-mentions-company,
-givedirectly,GiveDirectly,nonprofit,greenhouse,givedirectly,29,board-name-match,GiveDirectly
-xaira-therapeutics,Xaira Therapeutics,ai,greenhouse,xairatherapeutics,28,board-name-match,Xaira Therapeutics
+vonage,Vonage,software,greenhouse,vonage,30,board-name-match,Vonage
+bandwidth,Bandwidth,software,greenhouse,bandwidth,30,board-name-match,Bandwidth
+culture-amp,Culture Amp,software,greenhouse,cultureamp,30,board-name-match,Culture Amp
+redis,Redis,data,ashby,redis,29,ad-text-mentions-company,
+discord,Discord,ai,greenhouse,discord,29,board-name-match,Discord
+strava,Strava,ai,ashby,strava,29,ad-text-mentions-company,
+verint,Verint,software,ashby,verint,29,ad-text-mentions-company,
+amplify,Amplify,software,ashby,amplify,29,ad-text-mentions-company,
+hopper,Hopper,travel,ashby,hopper,29,ad-text-mentions-company,
+axios,Axios,media,greenhouse,axios,29,board-name-match,Axios
+periodic-labs,Periodic Labs,ai,ashby,periodic-labs,28,ad-text-mentions-company,
 goodfire,Goodfire,ai,greenhouse,goodfire,28,board-name-match,Goodfire
-messagebird,MessageBird,software,greenhouse,bird,28,board-name-match,Bird
 nozomi-networks,Nozomi Networks,software,greenhouse,nozominetworks,28,board-name-match,Nozomi Networks
-n26,N26,software,greenhouse,n26,28,board-name-match,N26
-bird,Bird,travel,greenhouse,bird,28,board-name-match,Bird
-kabam,Kabam,ai,lever,kabam,27,ad-text-mentions-company,
+iambic-therapeutics,Iambic Therapeutics,health,ashby,iambic-therapeutics,28,ad-text-mentions-company,
+sumo-logic,Sumo Logic,data,greenhouse,sumologic,27,board-name-match,Sumo Logic
+supercell,Supercell,ai,ashby,supercell,27,ad-text-mentions-company,
+hp-inc,HP Inc,software,greenhouse,hp,27,board-name-match,HP
+baidu,Baidu,software,greenhouse,baidu,27,board-name-match,Baidu USA
 algolia,Algolia,software,greenhouse,algolia,27,board-name-match,Algolia
-vonage,Vonage,software,greenhouse,vonage,27,board-name-match,Vonage
-druva,Druva,software,greenhouse,druva,27,board-name-match,Druva
-fireblocks,Fireblocks,software,greenhouse,fireblocks,27,board-name-match,Fireblocks
+omada-health,Omada Health,software,greenhouse,omadahealth,27,board-name-match,Omada Health
+nerdwallet,NerdWallet,software,ashby,nerdwallet,27,ad-text-mentions-company,
+entrata,Entrata,travel,lever,entrata,27,ad-text-mentions-company,
+framestore,Framestore,media,recruitee,framestore,27,board-name-match,Framestore
 general-assembly,General Assembly,media,greenhouse,generalassembly,27,board-name-match,General Assembly
+everbridge,Everbridge,regional,lever,everbridge,27,ad-text-mentions-company,
+synthesia,Synthesia,ai,ashby,synthesia,26,ad-text-mentions-company,
 sakana-ai,Sakana AI,ai,workable,sakana-ai,26,board-name-match,Sakana AI
-redis,Redis,data,ashby,redis,26,ad-text-mentions-company,
-collibra,Collibra,data,greenhouse,collibra,26,board-name-match,Collibra
-discord,Discord,ai,greenhouse,discord,26,board-name-match,Discord
-hp-inc,HP Inc,software,greenhouse,hp,26,board-name-match,HP
-baidu,Baidu,software,greenhouse,baidu,26,board-name-match,Baidu USA
-greenhouse-software,Greenhouse Software,software,greenhouse,greenhouse,26,board-name-match,Greenhouse
-gemini,Gemini,software,greenhouse,gemini,26,board-name-match,Gemini
-rent-the-runway,Rent the Runway,retail,greenhouse,renttherunway,26,board-name-match,Rent the Runway
-entrata,Entrata,travel,lever,entrata,26,ad-text-mentions-company,
-generate-biomedicines,Generate Biomedicines,ai,greenhouse,generatebiomedicines,25,board-name-match,Generate Biomedicines
-sumo-logic,Sumo Logic,data,greenhouse,sumologic,25,board-name-match,Sumo Logic
-betterment,Betterment,software,greenhouse,betterment,25,board-name-match,Betterment
-second-front-systems,Second Front Systems,regional,ashby,second-front-systems,25,ad-text-mentions-company,
+canva,Canva,ai,smartrecruiters,canva,26,board-name-match,Canva
+showpad,Showpad,software,greenhouse,showpad,26,board-name-match,Showpad
+stockx,StockX,retail,greenhouse,stockx,26,board-name-match,StockX
+qumulo,Qumulo,regional,ashby,qumulo,26,ad-text-mentions-company,
+xaira-therapeutics,Xaira Therapeutics,ai,greenhouse,xairatherapeutics,25,board-name-match,Xaira Therapeutics
+salesloft,Salesloft,ai,greenhouse,salesloft,25,board-name-match,Salesloft
+druva,Druva,software,greenhouse,druva,25,board-name-match,Druva
+gecko-robotics,Gecko Robotics,regional,ashby,gecko-robotics,25,ad-text-mentions-company,
 anyscale,Anyscale,ai,ashby,anyscale,24,ad-text-mentions-company,
-abridge,Abridge,ai,ashby,abridge,24,ad-text-mentions-company,
-salesloft,Salesloft,ai,greenhouse,salesloft,24,board-name-match,Salesloft
-godaddy,GoDaddy,software,greenhouse,godaddy,24,board-name-match,GoDaddy
+greenhouse-software,Greenhouse Software,software,greenhouse,greenhouse,24,board-name-match,Greenhouse
+gemini,Gemini,software,greenhouse,gemini,24,board-name-match,Gemini
 paxos,Paxos,software,ashby,paxos,24,ad-text-mentions-company,
-dapper-labs,Dapper Labs,software,ashby,dapper,24,ad-text-mentions-company,
-arc-institute,Arc Institute,health,greenhouse,arcinstitute,24,board-name-match,Arc Institute
-everbridge,Everbridge,regional,lever,everbridge,24,ad-text-mentions-company,
-gecko-robotics,Gecko Robotics,regional,ashby,gecko-robotics,24,ad-text-mentions-company,
-strava,Strava,ai,ashby,strava,23,ad-text-mentions-company,
-omada-health,Omada Health,software,greenhouse,omadahealth,23,board-name-match,Omada Health
+elliptic,Elliptic,software,ashby,elliptic,24,ad-text-mentions-company,
+rent-the-runway,Rent the Runway,retail,greenhouse,renttherunway,24,board-name-match,Rent the Runway
+commercetools,commercetools,retail,greenhouse,commercetools,24,board-name-match,commercetools
+second-front-systems,Second Front Systems,regional,ashby,second-front-systems,24,ad-text-mentions-company,
+generate-biomedicines,Generate Biomedicines,ai,greenhouse,generatebiomedicines,23,board-name-match,Generate Biomedicines
+astronomer,Astronomer,data,ashby,astronomer,23,ad-text-mentions-company,
+collibra,Collibra,data,greenhouse,collibra,23,board-name-match,Collibra
+spire-global,Spire Global,data,greenhouse,spire,23,board-name-match,Spire
 virta-health,Virta Health,software,ashby,virtahealth,23,ad-text-mentions-company,
+toptal,Toptal,software,lever,toptal,23,ad-text-mentions-company,
 drata,Drata,software,ashby,drata,23,ad-text-mentions-company,
-pie-insurance,Pie Insurance,software,greenhouse,pieinsurance,23,board-name-match,Pie Insurance
-elliptic,Elliptic,software,ashby,elliptic,23,ad-text-mentions-company,
-rover,Rover,retail,lever,rover,23,ad-text-mentions-company,
+betterment,Betterment,software,greenhouse,betterment,23,board-name-match,Betterment
+dapper-labs,Dapper Labs,software,ashby,dapper,23,ad-text-mentions-company,
+nasdaq,Nasdaq,finance,greenhouse,nasdaq,23,board-name-match,Nasdaq
 vox-media,Vox Media,media,greenhouse,voxmedia,23,board-name-match,Vox Media Group
-udacity,Udacity,media,greenhouse,udacity,23,board-name-match,Udacity
-qumulo,Qumulo,regional,ashby,qumulo,23,ad-text-mentions-company,
-runpod,RunPod,ai,ashby,runpod,22,ad-text-mentions-company,
-arize-ai,Arize AI,ai,greenhouse,arizeai,22,board-name-match,Arize AI
-honeycomb,Honeycomb,data,greenhouse,honeycomb,22,board-name-match,Honeycomb.io
-bandwidth,Bandwidth,software,greenhouse,bandwidth,22,board-name-match,Bandwidth
-showpad,Showpad,software,greenhouse,showpad,22,board-name-match,Showpad
-axonius,Axonius,software,greenhouse,axonius,22,board-name-match,Axonius
-funding-circle,Funding Circle,software,ashby,fundingcircle,22,ad-text-mentions-company,
-patreon,Patreon,media,ashby,patreon,22,ad-text-mentions-company,
-oyster,Oyster,software,ashby,oyster,21,ad-text-mentions-company,
-yubico,Yubico,software,greenhouse,yubico,21,board-name-match,Yubico Inc.
-nasdaq,Nasdaq,finance,greenhouse,nasdaq,21,board-name-match,Nasdaq
+island,Island,software,greenhouse,island,22,board-name-match,Island
+n26,N26,software,greenhouse,n26,22,board-name-match,N26
+pie-insurance,Pie Insurance,software,greenhouse,pieinsurance,22,board-name-match,Pie Insurance
+komodo-health,Komodo Health,health,greenhouse,komodohealth,22,board-name-match,Komodo Health
+rover,Rover,retail,lever,rover,22,ad-text-mentions-company,
+metabase,Metabase,data,lever,metabase,21,ad-text-mentions-company,
+pendo,Pendo,data,greenhouse,pendo,21,board-name-match,Pendo
+godaddy,GoDaddy,software,greenhouse,godaddy,21,board-name-match,GoDaddy
+funding-circle,Funding Circle,software,ashby,fundingcircle,21,ad-text-mentions-company,
+flatiron-health,Flatiron Health,health,greenhouse,flatironhealth,21,board-name-match,Flatiron Health
+arc-institute,Arc Institute,health,greenhouse,arcinstitute,21,board-name-match,Arc Institute
 poshmark,Poshmark,retail,ashby,poshmark,21,ad-text-mentions-company,
-gamma,Gamma,ai,ashby,gamma,20,ad-text-mentions-company,
+patreon,Patreon,media,ashby,patreon,21,ad-text-mentions-company,
+givedirectly,GiveDirectly,nonprofit,greenhouse,givedirectly,21,board-name-match,GiveDirectly
 granola,Granola,ai,ashby,granola,20,ad-text-mentions-company,
-retell-ai,Retell AI,ai,ashby,retell-ai,20,ad-text-mentions-company,
 invisible-technologies,Invisible Technologies,ai,greenhouse,invisibletech,20,board-name-match,Invisible Technologies
-pendo,Pendo,data,greenhouse,pendo,20,board-name-match,Pendo
-metabase,Metabase,data,lever,metabase,20,ad-text-mentions-company,
-verint,Verint,software,ashby,verint,20,ad-text-mentions-company,
-gainsight,Gainsight,software,ashby,gainsight,20,ad-text-mentions-company,
+arize-ai,Arize AI,ai,greenhouse,arizeai,20,board-name-match,Arize AI
+squarespace,Squarespace,software,greenhouse,squarespace,20,board-name-match,Squarespace
 mindtickle,Mindtickle,software,lever,mindtickle,20,ad-text-mentions-company,
-wealthfront,Wealthfront,software,lever,wealthfront,20,ad-text-mentions-company,
-flatiron-health,Flatiron Health,health,greenhouse,flatironhealth,20,board-name-match,Flatiron Health
-glossier,Glossier,retail,greenhouse,glossier,20,board-name-match,Glossier
+coalfire,Coalfire,software,lever,coalfire,20,ad-text-mentions-company,
+zimperium,Zimperium,software,lever,zimperium,20,ad-text-mentions-company,
+butterfly-network,Butterfly Network,health,greenhouse,butterflynetwork,20,board-name-match,Butterfly Network
 substack,Substack,media,ashby,substack,20,ad-text-mentions-company,
-pushpay,Pushpay,regional,greenhouse,pushpay,20,board-name-match,Pushpay
-pika,Pika,ai,ashby,pika,19,ad-text-mentions-company,
-toloka,Toloka,ai,greenhouse,toloka,19,board-name-match,Toloka
+udacity,Udacity,media,greenhouse,udacity,20,board-name-match,Udacity
+black-forest-labs,Black Forest Labs,ai,ashby,black-forest-labs,19,ad-text-mentions-company,
+runpod,RunPod,ai,ashby,runpod,19,ad-text-mentions-company,
+gamma,Gamma,ai,ashby,gamma,19,ad-text-mentions-company,
+retell-ai,Retell AI,ai,ashby,retell-ai,19,ad-text-mentions-company,
 hiddenlayer,HiddenLayer,ai,greenhouse,hiddenlayer,19,board-name-match,HiddenLayer
-astronomer,Astronomer,data,ashby,astronomer,19,ad-text-mentions-company,
 iterable,Iterable,data,ashby,iterable,19,ad-text-mentions-company,
+yugabyte,Yugabyte,data,greenhouse,yugabyte,19,board-name-match,YugabyteDB
+yubico,Yubico,software,greenhouse,yubico,19,board-name-match,Yubico Inc.
 forter,Forter,software,greenhouse,forter,19,board-name-match,Forter
-wise,Wise,software,greenhouse,wise,19,board-name-match,Wise Worksite Field Sales 
-alchemy,Alchemy,software,ashby,alchemy,19,ad-text-mentions-company,
-komodo-health,Komodo Health,health,greenhouse,komodohealth,19,board-name-match,Komodo Health
+axonius,Axonius,software,greenhouse,axonius,19,board-name-match,Axonius
+wealthfront,Wealthfront,software,lever,wealthfront,19,ad-text-mentions-company,
+adaptive-biotechnologies,Adaptive Biotechnologies,health,greenhouse,adaptivebiotechnologies,19,board-name-match,Adaptive Biotechnologies
+minerva,Minerva,media,ashby,minerva,19,ad-text-mentions-company,
+aclu,ACLU,nonprofit,greenhouse,aclu,19,board-name-match,ACLU - National Office
 ambience-healthcare,Ambience Healthcare,ai,ashby,ambiencehealthcare,18,ad-text-mentions-company,
-otter-ai,Otter.ai,ai,greenhouse,otterai,18,board-name-match,Otter.ai
+pathai,PathAI,ai,greenhouse,pathai,18,board-name-match,PathAI
+read-ai,Read AI,ai,ashby,read-ai,18,ad-text-mentions-company,
 transperfect,TransPerfect,ai,smartrecruiters,transperfect,18,board-name-match,Transperfect
-talkspace,Talkspace,software,greenhouse,talkspace,18,board-name-match,Talkspace
-island,Island,software,greenhouse,island,18,board-name-match,Island
-coalfire,Coalfire,software,lever,coalfire,18,ad-text-mentions-company,
-zimperium,Zimperium,software,lever,zimperium,18,ad-text-mentions-company,
-ginkgo-bioworks,Ginkgo Bioworks,health,greenhouse,ginkgobioworks,18,board-name-match,Ginkgo Bioworks Inc.
-altos-labs,Altos Labs,health,greenhouse,altoslabs,18,board-name-match,Altos Labs
-minerva,Minerva,media,ashby,minerva,18,ad-text-mentions-company,
-aclu,ACLU,nonprofit,greenhouse,aclu,18,board-name-match,ACLU - National Office
-black-forest-labs,Black Forest Labs,ai,ashby,black-forest-labs,17,ad-text-mentions-company,
-heygen,HeyGen,ai,greenhouse,heygen,17,board-name-match,HeyGen
-read-ai,Read AI,ai,ashby,read-ai,17,ad-text-mentions-company,
-kernel,Kernel,ai,ashby,kernel,17,ad-text-mentions-company,
-squarespace,Squarespace,software,greenhouse,squarespace,17,board-name-match,Squarespace
-taskrabbit,TaskRabbit,software,greenhouse,taskrabbit,17,board-name-match,Taskrabbit
-everest,Everest,finance,recruitee,everest,17,board-name-match,Everest Commerce Group B.V.
-color-health,Color Health,health,ashby,color-health,17,ad-text-mentions-company,
-butterfly-network,Butterfly Network,health,greenhouse,butterflynetwork,17,board-name-match,Butterfly Network
-hopper,Hopper,travel,ashby,hopper,17,ad-text-mentions-company,
-cambridge-mobile-telematics,Cambridge Mobile Telematics,regional,greenhouse,cambridgemobiletelematics,17,board-name-match,Cambridge Mobile Telematics
+oyster,Oyster,software,ashby,oyster,18,ad-text-mentions-company,
+wise,Wise,software,greenhouse,wise,18,board-name-match,Wise Worksite Field Sales 
+alchemy,Alchemy,software,ashby,alchemy,18,ad-text-mentions-company,
+glossier,Glossier,retail,greenhouse,glossier,18,board-name-match,Glossier
+pika,Pika,ai,ashby,pika,17,ad-text-mentions-company,
+otter-ai,Otter.ai,ai,greenhouse,otterai,17,board-name-match,Otter.ai
+toloka,Toloka,ai,greenhouse,toloka,17,board-name-match,Toloka
+jumio,Jumio,data,greenhouse,jumio,17,board-name-match,Jumio
+gainsight,Gainsight,software,ashby,gainsight,17,ad-text-mentions-company,
+skyflow,Skyflow,software,ashby,skyflow,17,ad-text-mentions-company,
+altos-labs,Altos Labs,health,greenhouse,altoslabs,17,board-name-match,Altos Labs
 midjourney,Midjourney,ai,ashby,midjourney,16,ad-text-mentions-company,
-appen,Appen,ai,lever,appen,16,ad-text-mentions-company,
-airbyte,Airbyte,data,ashby,airbyte,16,ad-text-mentions-company,
-yugabyte,Yugabyte,data,greenhouse,yugabyte,16,board-name-match,YugabyteDB
-domino-data-lab,Domino Data Lab,data,greenhouse,dominodatalab,16,board-name-match,Domino
-jumio,Jumio,data,greenhouse,jumio,16,board-name-match,Jumio
+heygen,HeyGen,ai,greenhouse,heygen,16,board-name-match,HeyGen
+honeycomb,Honeycomb,data,greenhouse,honeycomb,16,board-name-match,Honeycomb.io
 semgrep,Semgrep,software,ashby,semgrep,16,ad-text-mentions-company,
-insurify,Insurify,software,greenhouse,insurify,16,board-name-match,Insurify
-project44,project44,retail,greenhouse,project44,16,board-name-match,project44
+ginkgo-bioworks,Ginkgo Bioworks,health,greenhouse,ginkgobioworks,16,board-name-match,Ginkgo Bioworks Inc.
 tripadvisor,TripAdvisor,travel,greenhouse,tripadvisor,16,board-name-match,Tripadvisor
-nous-research,Nous Research,ai,ashby,nousresearch,15,ad-text-mentions-company,
+cambridge-mobile-telematics,Cambridge Mobile Telematics,regional,greenhouse,cambridgemobiletelematics,16,board-name-match,Cambridge Mobile Telematics
 vast-ai,Vast.ai,ai,ashby,vastai,15,ad-text-mentions-company,
-pathai,PathAI,ai,greenhouse,pathai,15,board-name-match,PathAI
+outreach,Outreach,ai,lever,outreach,15,ad-text-mentions-company,
+appen,Appen,ai,greenhouse,appen,15,board-name-match,Appen
+dataiku,Dataiku,data,greenhouse,dataiku,15,board-name-match,Dataiku
 jam-city,Jam City,ai,lever,jamcity,15,ad-text-mentions-company,
-skyflow,Skyflow,software,ashby,skyflow,15,ad-text-mentions-company,
-relay-therapeutics,Relay Therapeutics,health,greenhouse,relaytherapeutics,15,board-name-match,Relay Therapeutics
-arcadia,Arcadia,energy,lever,arcadia,15,ad-text-mentions-company,
-hover,Hover,travel,greenhouse,hover,15,board-name-match,Hover
+circleci,CircleCI,software,greenhouse,circleci,15,board-name-match,CircleCI
+messagebird,MessageBird,software,greenhouse,bird,15,board-name-match,Bird
+taskrabbit,TaskRabbit,software,greenhouse,taskrabbit,15,board-name-match,Taskrabbit
+salt-security,Salt Security,software,greenhouse,saltsecurity,15,board-name-match,Salt Security
+insurify,Insurify,software,greenhouse,insurify,15,board-name-match,Insurify
+everquote,EverQuote,software,greenhouse,everquote,15,board-name-match,EverQuote
+pdt-partners,PDT Partners,finance,greenhouse,pdtpartners,15,board-name-match,PDT Partners
+everest,Everest,finance,recruitee,everest,15,board-name-match,Everest Commerce Group B.V.
+eikon-therapeutics,Eikon Therapeutics,health,greenhouse,eikontherapeutics,15,board-name-match,Eikon Therapeutics
+project44,project44,retail,greenhouse,project44,15,board-name-match,project44
+bird,Bird,travel,greenhouse,bird,15,board-name-match,Bird
 primer,Primer,media,ashby,primer,15,ad-text-mentions-company,
-openai-foundation,OpenAI Foundation,nonprofit,ashby,openai-foundation,15,ad-text-mentions-company,
+pushpay,Pushpay,regional,greenhouse,pushpay,15,board-name-match,Pushpay
 primer-ai,Primer AI,regional,ashby,primer,15,ad-text-mentions-company,
-insitro,Insitro,ai,ashby,insitro,14,ad-text-mentions-company,
-outreach,Outreach,ai,lever,outreach,14,ad-text-mentions-company,
+nous-research,Nous Research,ai,ashby,nousresearch,14,ad-text-mentions-company,
 clay,Clay,ai,recruitee,clay,14,board-name-match,Clay Hospitality
-miro,Miro,ai,greenhouse,realtimeboardglobal,14,board-name-match,Miro
-circleci,CircleCI,software,greenhouse,circleci,14,board-name-match,CircleCI
-sonatype,Sonatype,software,lever,sonatype,14,ad-text-mentions-company,
-classdojo,ClassDojo,software,ashby,classdojo,14,ad-text-mentions-company,
-dashlane,Dashlane,software,greenhouse,dashlane,14,board-name-match,Dashlane
-everquote,EverQuote,software,greenhouse,everquote,14,board-name-match,EverQuote
-eikon-therapeutics,Eikon Therapeutics,health,greenhouse,eikontherapeutics,14,board-name-match,Eikon Therapeutics
-adaptive-biotechnologies,Adaptive Biotechnologies,health,greenhouse,adaptivebiotechnologies,14,board-name-match,Adaptive Biotechnologies
+airbyte,Airbyte,data,ashby,airbyte,14,ad-text-mentions-company,
+domino-data-lab,Domino Data Lab,data,greenhouse,dominodatalab,14,board-name-match,Domino
+dexterity,Dexterity,ai,lever,dexterity,14,ad-text-mentions-company,
+kernel,Kernel,ai,ashby,kernel,14,ad-text-mentions-company,
+talkspace,Talkspace,software,greenhouse,talkspace,14,board-name-match,Talkspace
+orca-security,Orca Security,software,greenhouse,orcasecurity,14,board-name-match,Orca Security
+color-health,Color Health,health,ashby,color-health,14,ad-text-mentions-company,
+thoughtworks,Thoughtworks,consulting,ashby,thoughtworks,14,ad-text-mentions-company,
 caci,CACI,consulting,smartrecruiters,caci,14,board-name-match,CACI
+cirrus-logic,Cirrus Logic,hardware,greenhouse,cirruslogic,14,board-name-match,Cirrus Logic
+openai-foundation,OpenAI Foundation,nonprofit,ashby,openai-foundation,14,ad-text-mentions-company,
 constant-contact,Constant Contact,regional,greenhouse,constantcontact,14,board-name-match,Constant Contact
+rhombus-power,Rhombus Power,regional,greenhouse,rhombuspower,14,board-name-match,"Rhombus Power, Inc."
 verisign,Verisign,regional,greenhouse,verisign,14,board-name-match,Verisign
 character-ai,Character.AI,ai,ashby,character,13,ad-text-mentions-company,
+miro,Miro,ai,greenhouse,realtimeboardglobal,13,board-name-match,Miro
+labelbox,Labelbox,ai,greenhouse,labelbox,13,board-name-match,Labelbox
 galileo,Galileo,ai,greenhouse,galileo,13,board-name-match,Galileo
-cockroach-labs,Cockroach Labs,data,greenhouse,cockroachlabs,13,board-name-match,Cockroach Labs
-dataiku,Dataiku,data,greenhouse,dataiku,13,board-name-match,Dataiku
 persona,Persona,data,ashby,persona,13,ad-text-mentions-company,
-dexterity,Dexterity,ai,lever,dexterity,13,ad-text-mentions-company,
-naughty-dog,Naughty Dog,ai,greenhouse,naughtydog,13,board-name-match,Naughty Dog
-bugcrowd,Bugcrowd,software,greenhouse,bugcrowd,13,board-name-match,Bugcrowd
-pdt-partners,PDT Partners,finance,greenhouse,pdtpartners,13,board-name-match,PDT Partners
-voltus,Voltus,energy,lever,voltus,13,ad-text-mentions-company,
-stitch-fix,Stitch Fix,retail,greenhouse,stitchfix,13,board-name-match,Stitch Fix
-pursuit,Pursuit,nonprofit,greenhouse,pursuit,13,board-name-match,Pursuit
-rhombus-power,Rhombus Power,regional,greenhouse,rhombuspower,13,board-name-match,"Rhombus Power, Inc."
-zilliz,Zilliz,ai,lever,zilliz,12,ad-text-mentions-company,
-planetscale,PlanetScale,data,greenhouse,planetscale,12,board-name-match,PlanetScale
-veracode,Veracode,software,greenhouse,veracode,12,board-name-match,Veracode
+classdojo,ClassDojo,software,ashby,classdojo,13,ad-text-mentions-company,
+dashlane,Dashlane,software,greenhouse,dashlane,13,board-name-match,Dashlane
+hackerone,HackerOne,software,ashby,hackerone,13,ad-text-mentions-company,
+lithic,Lithic,software,greenhouse,lithic,13,board-name-match,Lithic
+arcadia,Arcadia,energy,lever,arcadia,13,ad-text-mentions-company,
+hover,Hover,travel,greenhouse,hover,13,board-name-match,Hover
+insitro,Insitro,ai,ashby,insitro,12,ad-text-mentions-company,
+profluent,Profluent,ai,greenhouse,profluent,12,board-name-match,Profluent
+polyai,PolyAI,ai,greenhouse,polyai,12,board-name-match,PolyAI
+smartling,Smartling,ai,greenhouse,smartling,12,board-name-match,Smartling
+zilliz,Zilliz,ai,ashby,zilliz,12,ad-text-mentions-company,
+irregular,Irregular,ai,ashby,irregular,12,ad-text-mentions-company,
+feedzai,Feedzai,data,greenhouse,feedzai,12,board-name-match,Feedzai
+naughty-dog,Naughty Dog,ai,greenhouse,naughtydog,12,board-name-match,Naughty Dog
 tebra,Tebra,software,greenhouse,tebra,12,board-name-match,Tebra
-bishop-fox,Bishop Fox,software,greenhouse,bishopfox,12,board-name-match,Bishop Fox
-hackerone,HackerOne,software,ashby,hackerone,12,ad-text-mentions-company,
-lithic,Lithic,software,greenhouse,lithic,12,board-name-match,Lithic
-prime-medicine,Prime Medicine,health,greenhouse,primemedicine,12,board-name-match,Prime Medicine
-fourkites,FourKites,retail,greenhouse,fourkites,12,board-name-match,FourKites
+lastpass,LastPass,software,greenhouse,lastpass,12,board-name-match,LastPass
+relay-therapeutics,Relay Therapeutics,health,greenhouse,relaytherapeutics,12,board-name-match,Relay Therapeutics
+enveda,Enveda,health,lever,enveda,12,ad-text-mentions-company,
+voltus,Voltus,energy,lever,voltus,12,ad-text-mentions-company,
+stitch-fix,Stitch Fix,retail,greenhouse,stitchfix,12,board-name-match,Stitch Fix
 foundry,Foundry,media,greenhouse,foundry,12,board-name-match,Foundry
-suki,Suki,ai,greenhouse,suki,11,board-name-match,Suki
-owkin,Owkin,ai,ashby,owkin,11,ad-text-mentions-company,
-profluent,Profluent,ai,greenhouse,profluent,11,board-name-match,Profluent
-zapier,Zapier,ai,ashby,zapier,11,ad-text-mentions-company,
-airtable,Airtable,ai,greenhouse,airtable,11,board-name-match,Airtable
-smartling,Smartling,ai,greenhouse,smartling,11,board-name-match,Smartling
-labelbox,Labelbox,ai,greenhouse,labelbox,11,board-name-match,Labelbox
-irregular,Irregular,ai,ashby,irregular,11,ad-text-mentions-company,
-fullstory,FullStory,data,ashby,fullstory,11,ad-text-mentions-company,
-veriff,Veriff,data,greenhouse,veriff,11,board-name-match,Veriff
+lancedb,LanceDB,ai,ashby,lancedb,11,ad-text-mentions-company,
+monte-carlo,Monte Carlo,data,ashby,montecarlodata,11,ad-text-mentions-company,
+cockroach-labs,Cockroach Labs,data,greenhouse,cockroachlabs,11,board-name-match,Cockroach Labs
+veracode,Veracode,software,greenhouse,veracode,11,board-name-match,Veracode
+sonatype,Sonatype,software,lever,sonatype,11,ad-text-mentions-company,
 doximity,Doximity,software,greenhouse,doximity,11,board-name-match,Doximity
 pandadoc,PandaDoc,software,greenhouse,pandadoc,11,board-name-match,PandaDoc
+bugcrowd,Bugcrowd,software,greenhouse,bugcrowd,11,board-name-match,Bugcrowd
 bigid,BigID,software,greenhouse,bigid,11,board-name-match,BigID
-ketch,Ketch,software,greenhouse,ketch,11,board-name-match,Ketch
-dave,Dave,software,ashby,dave,11,ad-text-mentions-company,
-prosper,Prosper,software,lever,prosper,11,ad-text-mentions-company,
-enveda,Enveda,health,lever,enveda,11,ad-text-mentions-company,
+blend,Blend,software,greenhouse,blend,11,board-name-match,Blend
+prime-medicine,Prime Medicine,health,greenhouse,primemedicine,11,board-name-match,Prime Medicine
+fourkites,FourKites,retail,greenhouse,fourkites,11,board-name-match,FourKites
+code-for-america,Code for America,nonprofit,greenhouse,codeforamerica,11,board-name-match,Code for America
+mattermost,Mattermost,regional,greenhouse,mattermost,11,board-name-match,Mattermost
+hugging-face,Hugging Face,ai,workable,huggingface,10,board-name-match,Hugging Face
+suki,Suki,ai,greenhouse,suki,10,board-name-match,Suki
+owkin,Owkin,ai,ashby,owkin,10,ad-text-mentions-company,
+descript,Descript,ai,greenhouse,descript,10,board-name-match,Descript
 observe-ai,Observe.AI,ai,greenhouse,observeai,10,board-name-match,Observe.AI
-lancedb,LanceDB,ai,ashby,lancedb,10,ad-text-mentions-company,
-monte-carlo,Monte Carlo,data,ashby,montecarlodata,10,ad-text-mentions-company,
+deepl,DeepL,ai,ashby,deepl,10,ad-text-mentions-company,
+fullstory,FullStory,data,ashby,fullstory,10,ad-text-mentions-company,
 posthog,Posthog,data,ashby,posthog,10,ad-text-mentions-company,
-wasabi,Wasabi,software,greenhouse,wasabi,10,board-name-match,Wasabi Technologies
 skillsoft,Skillsoft,software,greenhouse,skillsoft,10,board-name-match,Skillsoft
-newsela,Newsela,software,greenhouse,newsela,10,board-name-match,Newsela
-orca-security,Orca Security,software,greenhouse,orcasecurity,10,board-name-match,Orca Security
-salt-security,Salt Security,software,greenhouse,saltsecurity,10,board-name-match,Salt Security
-lightspeed,Lightspeed,software,ashby,lightspeed,10,ad-text-mentions-company,
-blend,Blend,software,greenhouse,blend,10,board-name-match,Blend
-mysten-labs,Mysten Labs,software,ashby,mystenlabs,10,ad-text-mentions-company,
+secureframe,Secureframe,software,ashby,secureframe,10,ad-text-mentions-company,
+ketch,Ketch,software,greenhouse,ketch,10,board-name-match,Ketch
+pagaya,Pagaya,software,greenhouse,pagaya,10,board-name-match,Pagaya 
 boston-medical-center,Boston Medical Center,health,smartrecruiters,bostonmedicalcenter,10,board-name-match,Boston Medical Center
 alnylam,Alnylam,health,smartrecruiters,alnylam,10,board-name-match,Alnylam
-microchip,Microchip,hardware,smartrecruiters,microchip,10,board-name-match,Microchip
-code-for-america,Code for America,nonprofit,greenhouse,codeforamerica,10,board-name-match,Code for America
-wasabi-technologies,Wasabi Technologies,regional,greenhouse,wasabi,10,board-name-match,Wasabi Technologies
-mattermost,Mattermost,regional,greenhouse,mattermost,10,board-name-match,Mattermost
+pursuit,Pursuit,nonprofit,greenhouse,pursuit,10,board-name-match,Pursuit
 magic,Magic,ai,ashby,magic,9,ad-text-mentions-company,
-lindy,Lindy,ai,recruitee,lindy,9,board-name-match,Lindy-Elektronik GmbH
-descript,Descript,ai,greenhouse,descript,9,board-name-match,Descript
-apollo-research,Apollo Research,ai,lever,apolloresearch,9,ad-text-mentions-company,
+zapier,Zapier,ai,ashby,zapier,9,ad-text-mentions-company,
+replicant,Replicant,ai,ashby,replicant,9,ad-text-mentions-company,
 dremio,Dremio,data,greenhouse,dremio,9,board-name-match,Dremio
-feedzai,Feedzai,data,greenhouse,feedzai,9,board-name-match,Feedzai
-synack,Synack,software,greenhouse,synack,9,board-name-match,Synack
-pagaya,Pagaya,software,greenhouse,pagaya,9,board-name-match,Pagaya 
-acorns,Acorns,software,ashby,acorns,9,ad-text-mentions-company,
-uniswap-labs,Uniswap Labs,software,ashby,uniswap,9,ad-text-mentions-company,
+planetscale,PlanetScale,data,greenhouse,planetscale,9,board-name-match,PlanetScale
+veriff,Veriff,data,greenhouse,veriff,9,board-name-match,Veriff
+locus-robotics,Locus Robotics,ai,greenhouse,locusrobotics,9,board-name-match,Locus Robotics
+clever,Clever,software,greenhouse,clever,9,board-name-match,Clever
+bishop-fox,Bishop Fox,software,greenhouse,bishopfox,9,board-name-match,Bishop Fox
+dave,Dave,software,ashby,dave,9,ad-text-mentions-company,
+prosper,Prosper,software,lever,prosper,9,ad-text-mentions-company,
+lightspeed,Lightspeed,software,ashby,lightspeed,9,ad-text-mentions-company,
+mysten-labs,Mysten Labs,software,ashby,mystenlabs,9,ad-text-mentions-company,
+pivotal-labs,Pivotal Labs,consulting,ashby,pivotal,9,ad-text-mentions-company,
+microchip,Microchip,hardware,smartrecruiters,microchip,9,board-name-match,Microchip
 costar,CoStar,travel,greenhouse,costar,9,board-name-match,Co–Star
+springboard,Springboard,media,greenhouse,springboard,9,board-name-match,Springboard Roles
 flint,Flint,media,ashby,flint,9,ad-text-mentions-company,
-replicant,Replicant,ai,ashby,replicant,8,ad-text-mentions-company,
-deepl,DeepL,ai,ashby,deepl,8,ad-text-mentions-company,
+lindy,Lindy,ai,recruitee,lindy,8,board-name-match,Lindy-Elektronik GmbH
+pinecone,Pinecone,ai,ashby,pinecone,8,ad-text-mentions-company,
+apollo-research,Apollo Research,ai,lever,apolloresearch,8,ad-text-mentions-company,
 influxdata,InfluxData,data,ashby,influxdata,8,ad-text-mentions-company,
 watershed,Watershed,data,greenhouse,watershed,8,board-name-match,Watershed Informatics
-sylvera,Sylvera,data,ashby,sylvera,8,ad-text-mentions-company,
+capella-space,Capella Space,data,greenhouse,capellaspace,8,board-name-match,Capella Space
 apollo-graphql,Apollo GraphQL,software,ashby,apollo-graphql,8,ad-text-mentions-company,
-cloudinary,Cloudinary,software,lever,cloudinary,8,ad-text-mentions-company,
-clever,Clever,software,greenhouse,clever,8,board-name-match,Clever
-lastpass,LastPass,software,greenhouse,lastpass,8,board-name-match,LastPass
-secureframe,Secureframe,software,ashby,secureframe,8,ad-text-mentions-company,
-titan,Titan,software,ashby,titan,8,ad-text-mentions-company,
-absci,Absci,health,ashby,absci,8,ad-text-mentions-company,
-pivotal-labs,Pivotal Labs,consulting,ashby,pivotal,8,ad-text-mentions-company,
+amwell,Amwell,software,greenhouse,amwell,8,board-name-match,Amwell
+synack,Synack,software,greenhouse,synack,8,board-name-match,Synack
+acorns,Acorns,software,ashby,acorns,8,ad-text-mentions-company,
+uniswap-labs,Uniswap Labs,software,ashby,uniswap,8,ad-text-mentions-company,
 ideo,IDEO,consulting,greenhouse,ideo,8,board-name-match,IDEO
 smartrent,SmartRent,travel,greenhouse,smartrent,8,board-name-match,SmartRent
-jasper-ai,Jasper AI,ai,ashby,Jasper AI,7,ad-text-mentions-company,
+acumen,Acumen,nonprofit,greenhouse,acumen,8,board-name-match,Acumen
+ashoka,Ashoka,nonprofit,lever,ashoka,8,ad-text-mentions-company,
 nabla,Nabla,ai,ashby,nabla,7,ad-text-mentions-company,
 inceptive,Inceptive,ai,greenhouse,inceptive,7,board-name-match,Inceptive
 gong,Gong,ai,smartrecruiters,gong,7,board-name-match,GONG!
-epoch-ai,Epoch AI,ai,lever,epoch-ai,7,ad-text-mentions-company,
+airtable,Airtable,ai,greenhouse,airtable,7,board-name-match,Airtable
 atlan,Atlan,data,ashby,atlan,7,ad-text-mentions-company,
 sift,Sift,data,ashby,sift,7,ad-text-mentions-company,
-locus-robotics,Locus Robotics,ai,greenhouse,locusrobotics,7,board-name-match,Locus Robotics
+sylvera,Sylvera,data,ashby,sylvera,7,ad-text-mentions-company,
+cloudinary,Cloudinary,software,lever,cloudinary,7,ad-text-mentions-company,
 nextgen,NextGen,software,smartrecruiters,nextgen,7,board-name-match,NextGen
-amwell,Amwell,software,greenhouse,amwell,7,board-name-match,Amwell
-circle,Circle,software,ashby,circle,7,ad-text-mentions-company,
+titan,Titan,software,ashby,titan,7,ad-text-mentions-company,
 aptos-labs,Aptos Labs,software,greenhouse,aptoslabs,7,board-name-match,Aptos
 penn-medicine,Penn Medicine,health,smartrecruiters,pennmedicine,7,board-name-match,Penn Medicine
+absci,Absci,health,ashby,absci,7,ad-text-mentions-company,
 kenvue,Kenvue,retail,smartrecruiters,kenvue,7,board-name-match,Kenvue
 enterprise-holdings,Enterprise Holdings,travel,recruitee,enterprise,7,board-name-match,Rent a car - Enterprise
-springboard,Springboard,media,greenhouse,springboard,7,board-name-match,Springboard Roles
-ashoka,Ashoka,nonprofit,lever,ashoka,7,ad-text-mentions-company,
-hugging-face,Hugging Face,ai,workable,huggingface,6,board-name-match,Hugging Face
-warp,Warp,ai,greenhouse,warp,6,board-name-match,Warp
-phrase,Phrase,ai,ashby,phrase,6,ad-text-mentions-company,
-pinecone,Pinecone,ai,ashby,pinecone,6,ad-text-mentions-company,
+jasper-ai,Jasper AI,ai,ashby,Jasper AI,6,ad-text-mentions-company,
+metr,METR,ai,lever,metr,6,ad-text-mentions-company,
+epoch-ai,Epoch AI,ai,lever,epoch-ai,6,ad-text-mentions-company,
 haize-labs,Haize Labs,ai,greenhouse,haizelabs,6,board-name-match,Haize Labs
+netlify,Netlify,software,greenhouse,netlify,6,board-name-match,Netlify
+wasabi,Wasabi,software,greenhouse,wasabi,6,board-name-match,Wasabi Technologies
 typeform,Typeform,software,greenhouse,typeform,6,board-name-match,Typeform
-lattice,Lattice,software,greenhouse,lattice,6,board-name-match,Lattice
-bankrate,Bankrate,software,greenhouse,bankrate,6,board-name-match,Bankrate
+newsela,Newsela,software,greenhouse,newsela,6,board-name-match,Newsela
 paradigm,Paradigm,software,ashby,paradigm,6,ad-text-mentions-company,
 icon-plc,ICON plc,health,ashby,icon,6,ad-text-mentions-company,
-fate-therapeutics,Fate Therapeutics,health,lever,fatetherapeutics,6,ad-text-mentions-company,
 narvar,Narvar,retail,greenhouse,narvar,6,board-name-match,Narvar
+wasabi-technologies,Wasabi Technologies,regional,greenhouse,wasabi,6,board-name-match,Wasabi Technologies
 udio,Udio,ai,greenhouse,udio,5,board-name-match,Udio
+warp,Warp,ai,greenhouse,warp,5,board-name-match,Warp
 vapi,Vapi,ai,ashby,vapi,5,ad-text-mentions-company,
-polyai,PolyAI,ai,greenhouse,polyai,5,board-name-match,PolyAI
-redwood-research,Redwood Research,ai,ashby,redwoodresearch,5,ad-text-mentions-company,
+phrase,Phrase,ai,ashby,phrase,5,ad-text-mentions-company,
 prefect,Prefect,data,ashby,prefect,5,ad-text-mentions-company,
 imply,Imply,data,greenhouse,imply,5,board-name-match,Imply
-netlify,Netlify,software,greenhouse,netlify,5,board-name-match,Netlify
-calendly,Calendly,software,greenhouse,calendly,5,board-name-match,Calendly
+startree,StarTree,data,greenhouse,startree,5,board-name-match,StarTree
+khan-academy,Khan Academy,ai,greenhouse,khanacademy,5,board-name-match,Khan Academy
 beamery,Beamery,software,ashby,beamery,5,ad-text-mentions-company,
+2u,2U,software,greenhouse,2u,5,board-name-match,2U
 mcafee,McAfee,software,greenhouse,mcafee,5,board-name-match,McAfee Heating and Air Conditioning
-consensys,Consensys,software,ashby,consensys,5,ad-text-mentions-company,
+bankrate,Bankrate,software,greenhouse,bankrate,5,board-name-match,Bankrate
+circle,Circle,software,ashby,circle,5,ad-text-mentions-company,
+exoduspoint,ExodusPoint,finance,greenhouse,exoduspoint,5,board-name-match,ExodusPoint
+fate-therapeutics,Fate Therapeutics,health,lever,fatetherapeutics,5,ad-text-mentions-company,
 leonardo-drs,Leonardo DRS,consulting,smartrecruiters,leonardodrs,5,board-name-match,Leonardo DRS
 mosaic,Mosaic,energy,ashby,mosaic,5,ad-text-mentions-company,
-aurora-solar,Aurora Solar,energy,ashby,aurorasolar,5,ad-text-mentions-company,
 norwegian-cruise-line,Norwegian Cruise Line,travel,smartrecruiters,norwegiancruiseline,5,board-name-match,Norwegian Cruise Line
-acumen,Acumen,nonprofit,greenhouse,acumen,5,board-name-match,Acumen
 acquia,Acquia,regional,greenhouse,acquia,5,board-name-match,Acquia
 inflection-ai,Inflection AI,ai,greenhouse,inflectionai,4,board-name-match,Inflection AI
-aleph-alpha,Aleph Alpha,ai,ashby,alephalpha,4,ad-text-mentions-company,
 poolside,Poolside,ai,ashby,poolside,4,ad-text-mentions-company,
 bolt,Bolt,ai,greenhouse,stackblitz,4,board-name-match,Bolt.new
+rewind,Rewind,ai,ashby,rewind,4,ad-text-mentions-company,
 lokalise,Lokalise,ai,greenhouse,lokalise,4,board-name-match,Lokalise
 llamaindex,LlamaIndex,ai,ashby,llamaindex,4,ad-text-mentions-company,
-metr,METR,ai,lever,metr,4,ad-text-mentions-company,
 sisense,Sisense,data,ashby,sisense,4,ad-text-mentions-company,
 materialize,Materialize,data,ashby,materialize,4,ad-text-mentions-company,
-startree,StarTree,data,greenhouse,startree,4,board-name-match,StarTree
-bungie,Bungie,ai,greenhouse,bungie,4,board-name-match,Bungie
+calendly,Calendly,software,greenhouse,calendly,4,board-name-match,Calendly
+collective-health,Collective Health,software,greenhouse,collectivehealth,4,board-name-match,Collective Health
+lattice,Lattice,software,greenhouse,lattice,4,board-name-match,Lattice
 andela,Andela,software,ashby,andela,4,ad-text-mentions-company,
 upwork,Upwork,software,greenhouse,upwork,4,board-name-match,Upwork
-motive,Motive,software,greenhouse,motive,4,board-name-match,Motive
 expensify,Expensify,software,ashby,expensify,4,ad-text-mentions-company,
 apttus,Apttus,software,smartrecruiters,apttus,4,board-name-match,Apttus
-expel,Expel,software,greenhouse,expel,4,board-name-match,Expel
 current,Current,software,greenhouse,current,4,board-name-match,Current
-novo,Novo,software,ashby,novo,4,ad-text-mentions-company,
-exoduspoint,ExodusPoint,finance,greenhouse,exoduspoint,4,board-name-match,ExodusPoint
+consensys,Consensys,software,ashby,consensys,4,ad-text-mentions-company,
 chan-zuckerberg-initiative,Chan Zuckerberg Initiative,health,greenhouse,chanzuckerberginitiative,4,board-name-match,Chan Zuckerberg Initiative
+aurora-solar,Aurora Solar,energy,ashby,aurorasolar,4,ad-text-mentions-company,
+flink,Flink,retail,ashby,flink,4,ad-text-mentions-company,
 sonder,Sonder,travel,ashby,sonder,4,ad-text-mentions-company,
 buzzfeed,BuzzFeed,media,greenhouse,buzzfeed,4,board-name-match,"Employment Opportunities at BuzzFeed, Inc."
 iheartmedia,iHeartMedia,media,smartrecruiters,iheartmedia,4,board-name-match,iHeartMedia
-outschool,Outschool,media,ashby,outschool,4,ad-text-mentions-company,
 omidyar-network,Omidyar Network,nonprofit,greenhouse,omidyarnetwork,4,board-name-match,Omidyar Network
 stability-ai,Stability AI,ai,greenhouse,stabilityai,3,board-name-match,Stability AI
 runway,Runway,ai,ashby,runway,3,ad-text-mentions-company,
-bubble,Bubble,ai,ashby,bubble,3,ad-text-mentions-company,
 flutterflow,FlutterFlow,ai,ashby,flutterflow,3,ad-text-mentions-company,
-rewind,Rewind,ai,ashby,rewind,3,ad-text-mentions-company,
 hyperscience,Hyperscience,ai,ashby,hyperscience,3,ad-text-mentions-company,
-voxel51,Voxel51,ai,greenhouse,voxel51,3,board-name-match,Voxel51
+redwood-research,Redwood Research,ai,ashby,redwoodresearch,3,ad-text-mentions-company,
 cb-insights,CB Insights,data,greenhouse,cbinsights,3,board-name-match,CB Insights
-khan-academy,Khan Academy,ai,greenhouse,khanacademy,3,board-name-match,Khan Academy
 hirevue,HireVue,software,smartrecruiters,hirevue,3,board-name-match,HireVue Inc
 fiverr,Fiverr,software,smartrecruiters,fiverr,3,board-name-match,Fiverr
+motive,Motive,software,greenhouse,motive,3,board-name-match,Motive
+expel,Expel,software,greenhouse,expel,3,board-name-match,Expel
 twingate,Twingate,software,lever,twingate,3,ad-text-mentions-company,
-trustarc,TrustArc,software,lever,trustarc,3,ad-text-mentions-company,
 sentra,Sentra,software,ashby,sentra,3,ad-text-mentions-company,
+novo,Novo,software,ashby,novo,3,ad-text-mentions-company,
+tenet,Tenet,health,ashby,tenet,3,ad-text-mentions-company,
 valo-health,Valo Health,health,greenhouse,valohealth,3,board-name-match,Valo Health
 novavax,Novavax,health,smartrecruiters,novavax,3,board-name-match,Novavax
 oak-ridge-national-laboratory,Oak Ridge National Laboratory,consulting,smartrecruiters,oakridgenationallaboratory,3,board-name-match,Oak Ridge National Laboratory
 unacademy,Unacademy,media,smartrecruiters,unacademy,3,board-name-match,Unacademy
+outschool,Outschool,media,ashby,outschool,3,ad-text-mentions-company,
+aleph-alpha,Aleph Alpha,ai,ashby,alephalpha,2,ad-text-mentions-company,
 cline,Cline,ai,greenhouse,cline,2,board-name-match,Cline
 imbue,Imbue,ai,greenhouse,imbue,2,board-name-match,Imbue
 neptune-ai,Neptune.ai,ai,recruitee,neptune,2,board-name-match,Neptune
 weaviate,Weaviate,ai,ashby,weaviate,2,ad-text-mentions-company,
+voxel51,Voxel51,ai,greenhouse,voxel51,2,board-name-match,Voxel51
 orbital-sidekick,Orbital Sidekick,data,lever,orbitalsidekick,2,ad-text-mentions-company,
 udemy,Udemy,ai,greenhouse,udemy,2,board-name-match,Udemy
 bethesda,Bethesda,ai,greenhouse,bethesda,2,board-name-match,Bethesda Physical Therapy
 bytedance,ByteDance,software,smartrecruiters,bytedance,2,board-name-match,bytedance
 devoted-health,Devoted Health,software,smartrecruiters,devotedhealth,2,board-name-match,Devoted Health
-collective-health,Collective Health,software,greenhouse,collectivehealth,2,board-name-match,Collective Health
-calm,Calm,software,greenhouse,calm,2,board-name-match,Calm.com
 remote,Remote,software,greenhouse,remote,2,board-name-match,General Assembly Remote Jobs 
+trustarc,TrustArc,software,lever,trustarc,2,ad-text-mentions-company,
 arkose-labs,Arkose Labs,software,ashby,arkoselabs,2,ad-text-mentions-company,
 armis,Armis,software,smartrecruiters,armis,2,board-name-match,Armis
 western-union,Western Union,software,greenhouse,westernunion,2,board-name-match,Western Union
 doma,Doma,software,greenhouse,doma,2,board-name-match,Doma Technology LLC
 vouch,Vouch,software,smartrecruiters,vouch,2,board-name-match,Vouch
+opensea,OpenSea,software,ashby,opensea,2,ad-text-mentions-company,
 battery-ventures,Battery Ventures,finance,greenhouse,batteryventures,2,board-name-match,Battery
 brown-brown,Brown & Brown,finance,smartrecruiters,brownbrown,2,board-name-match,Brown & Brown
-tenet,Tenet,health,ashby,tenet,2,ad-text-mentions-company,
 resmed,ResMed,health,smartrecruiters,resmed,2,board-name-match,Resmed
 sunnova,Sunnova,energy,greenhouse,sunnova,2,board-name-match,Sunnova Energy Corporation
-flink,Flink,retail,ashby,flink,2,ad-text-mentions-company,
 bigcommerce,BigCommerce,retail,smartrecruiters,bigcommerce,2,board-name-match,Bigcommerce
 wework,WeWork,travel,smartrecruiters,wework,2,board-name-match,Wework
 latch,Latch,travel,lever,latch,2,ad-text-mentions-company,
 medium,Medium,media,greenhouse,medium,2,board-name-match,Medium
-markforged,Markforged,regional,greenhouse,markforged,2,board-name-match,Markforged
 textio,Textio,regional,greenhouse,textio,2,board-name-match,Textio
 glean,Glean,ai,smartrecruiters,glean,1,board-name-match,Glean
 relevance-ai,Relevance AI,ai,ashby,relevanceai,1,ad-text-mentions-company,
 glide,Glide,ai,greenhouse,glide,1,board-name-match,Glide
+bubble,Bubble,ai,ashby,bubble,1,ad-text-mentions-company,
 kore-ai,Kore.ai,ai,smartrecruiters,koreai,1,board-name-match,kore.ai
 cloudfactory,CloudFactory,ai,smartrecruiters,cloudfactory,1,board-name-match,CloudFactory
 comet,Comet,ai,greenhouse,comet,1,board-name-match,Comet
@@ -681,26 +682,26 @@ hightouch,Hightouch,data,ashby,hightouch,1,ad-text-mentions-company,
 neon,Neon,data,ashby,neon,1,ad-text-mentions-company,
 brainly,Brainly,ai,ashby,brainly,1,ad-text-mentions-company,
 picsart,Picsart,ai,greenhouse,picsart,1,board-name-match,Picsart
+bungie,Bungie,ai,greenhouse,bungie,1,board-name-match,Bungie
 uber,Uber,software,smartrecruiters,uber,1,board-name-match,Uber
 wayfair,Wayfair,software,smartrecruiters,wayfair,1,board-name-match,Wayfair
+calm,Calm,software,greenhouse,calm,1,board-name-match,Calm.com
 namely,Namely,software,smartrecruiters,namely,1,board-name-match,Namely
-smartrecruiters,SmartRecruiters,software,smartrecruiters,smartrecruiters,1,board-name-match,SmartRecruiters Inc
 hibob,HiBob,software,smartrecruiters,hibob,1,board-name-match,Hibob
+smartrecruiters,SmartRecruiters,software,smartrecruiters,smartrecruiters,1,board-name-match,SmartRecruiters Inc
 ramp,Ramp,software,greenhouse,ramp,1,board-name-match,RAMP
 degreed,Degreed,software,greenhouse,degreed,1,board-name-match,Degreed
-2u,2U,software,greenhouse,2u,1,board-name-match,2U
 blumira,Blumira,software,greenhouse,blumira,1,board-name-match,Blumira
 socket,Socket,software,greenhouse,socket,1,board-name-match,Socket
 securiti,Securiti,software,smartrecruiters,securiti,1,board-name-match,Securiti
 m1-finance,M1 Finance,software,smartrecruiters,m1finance,1,board-name-match,M1 Finance
 zest-ai,Zest AI,software,greenhouse,zestai,1,board-name-match,Zest AI
 ethereum-foundation,Ethereum Foundation,software,smartrecruiters,ethereumfoundation,1,board-name-match,Ethereum Foundation
-bain-capital,Bain Capital,finance,ashby,bain-capital,1,ad-text-mentions-company,
 stifel,Stifel,finance,smartrecruiters,stifel,1,board-name-match,Stifel
 geico,GEICO,finance,smartrecruiters,geico,1,board-name-match,GEICO
 markel,Markel,finance,smartrecruiters,markel,1,board-name-match,Markel
-ucsf,UCSF,health,smartrecruiters,ucsf,1,board-name-match,UCSF
 sutter-health,Sutter Health,health,smartrecruiters,sutterhealth,1,board-name-match,Sutter Health
+ucsf,UCSF,health,smartrecruiters,ucsf,1,board-name-match,UCSF
 masimo,Masimo,health,smartrecruiters,masimo,1,board-name-match,Masimo
 pyxis,Pyxis,health,smartrecruiters,pyxis,1,board-name-match,Pyxis
 horizon,Horizon,health,lever,horizon,1,ad-text-mentions-company,
@@ -711,8 +712,8 @@ palmetto,Palmetto,energy,greenhouse,palmetto,1,board-name-match,Palmetto Animal 
 kimberly-clark,Kimberly-Clark,retail,smartrecruiters,kimberlyclark,1,board-name-match,Kimberly Clark
 shake-shack,Shake Shack,retail,smartrecruiters,shakeshack,1,board-name-match,Shake Shack
 purple,Purple,retail,greenhouse,purple,1,board-name-match,Purple Internships
-barkbox,BarkBox,retail,greenhouse,bark,1,board-name-match,BARK
 tempur-sealy,Tempur Sealy,retail,smartrecruiters,tempur-sealy,1,board-name-match,Tempur-Sealy
+barkbox,BarkBox,retail,greenhouse,bark,1,board-name-match,BARK
 yardi,Yardi,travel,smartrecruiters,yardi,1,board-name-match,Yardi
 news-corp,News Corp,media,smartrecruiters,newscorp,1,board-name-match,News Corp
 princeton-university,Princeton University,media,greenhouse,princetonuniversity,1,board-name-match,Princeton University
@@ -720,4 +721,5 @@ vipkid,VIPKid,media,smartrecruiters,vipkid,1,board-name-match,VIPKID
 brisk-teaching,Brisk Teaching,media,ashby,brisk-teaching,1,ad-text-mentions-company,
 girls-who-code,Girls Who Code,nonprofit,lever,girlswhocode,1,ad-text-mentions-company,
 paperless-post,Paperless Post,regional,greenhouse,paperlesspost,1,board-name-match,Paperless Post
+markforged,Markforged,regional,greenhouse,markforged,1,board-name-match,Markforged
 govini,Govini,regional,smartrecruiters,govini,1,board-name-match,Govini
